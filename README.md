@@ -55,7 +55,7 @@ Currently exploring deeper into **Next.js, NestJS, cloud infrastructure, distrib
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/JAava-3776AB?style=for-the-badge&logo=Java&logoColor=pink)
+
 
 ---
 
@@ -74,6 +74,7 @@ Currently exploring deeper into **Next.js, NestJS, cloud infrastructure, distrib
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
 **Backend Concepts**
 
@@ -89,12 +90,17 @@ Currently exploring deeper into **Next.js, NestJS, cloud infrastructure, distrib
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 **Database Concepts**
 
 `DBMS` • `Data Modeling` • `SQL` • `NoSQL` • `Transactions` • `Indexing`
 
 ---
+
+### 🤖 AI & Intelligent Systems
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Retrieval_Augmented_Generation-6E56CF?style=for-the-badge)
 
 ## ☁️ Cloud & DevOps
 
