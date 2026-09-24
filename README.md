@@ -5,7 +5,9 @@
 <br><br>
 
 <a href="https://www.linkedin.com/in/satyansh-acharya/">
-<img src="https://cdn.simpleicons.org/linkedin/8b5cf6" width="30" alt="LinkedIn"/>
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linkedin.svg"
+     width="30"
+     alt="LinkedIn"/>
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="mailto:acharyasatyansh@gmail.com">
