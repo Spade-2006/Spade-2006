@@ -2,11 +2,7 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Satyansh Acharya"/>
 
-</div>
-
 <br>
-
-<div align="center">
 
 <a href="https://www.linkedin.com/in/satyansh-acharya/">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-8b5cf6?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -38,29 +34,35 @@
 
 ---
 
-## 🧠 `whoami`
-
-```text
-Satyansh Acharya
-├── 🎓 B.Tech CSE @ Lovely Professional University
-├── 💻 Full-Stack Developer
-├── ⚔️ DSA Enthusiast
-├── 🏗️ Backend & Systems Explorer
-├── 🤖 AI / RAG / Agentic AI
-└── 🚀 Building things instead of just talking about them
-```
-
-I'm a Computer Science student who enjoys turning ideas into actual working systems.
-
-My main interests sit somewhere between **full-stack development, backend engineering, DSA, system design and intelligent systems**.
-
-I like projects that make me learn something new — whether that's building an RPG around algorithms, designing backend architectures, experimenting with AI systems, or making unnecessarily ambitious GitHub profiles.
-
----
+## 🧬 `whoami`
 
 <div align="center">
 
-<img src="./assets/projects.svg" width="100%" alt="Projects"/>
+<table>
+<tr>
+
+<td width="30%" align="center" valign="middle">
+
+<img
+  src="./assets/satyansh.jpg"
+  width="260"
+  alt="Satyansh Acharya"
+/>
+
+</td>
+
+<td width="70%" align="center" valign="middle">
+
+<img
+  src="./assets/whoami.svg"
+  width="100%"
+  alt="Who Am I"
+/>
+
+</td>
+
+</tr>
+</table>
 
 </div>
 
@@ -70,77 +72,49 @@ I like projects that make me learn something new — whether that's building an 
 
 ## ⚡ `tech.stack`
 
-### 💻 Languages
+<div align="center">
 
-<p>
-<img src="https://skillicons.dev/icons?i=cpp,java,js,ts,python" />
-</p>
+<img
+  src="./assets/stack.svg"
+  width="100%"
+  alt="Tech Stack"
+/>
 
-### 🌐 Frontend
+</div>
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,vite" />
-</p>
-
-### ⚙️ Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs" />
-</p>
-
-### 🗄️ Databases
-
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,postgresql,redis,prisma" />
-</p>
-
-### ☁️ Tools & Infrastructure
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes,aws,linux" />
-</p>
-
-### 🤖 AI / Emerging Tech
-
-```text
-RAG
-Agentic AI
-LLM APIs
-GraphQL
-Redis
-AI-powered applications
-```
+<br>
 
 ---
 
 ## 🧩 `computer.science`
 
-```text
-DATA STRUCTURES & ALGORITHMS
-├── Arrays
-├── Linked Lists
-├── Stacks & Queues
-├── Trees
-├── Graphs
-├── Dynamic Programming
-├── Greedy Algorithms
-├── Searching & Sorting
-└── Problem Solving
+<div align="center">
 
-CORE CS
-├── OOP
-├── DBMS
-├── Operating Systems
-├── Computer Networks
-└── Computer Architecture
+<img
+  src="./assets/cs.svg"
+  width="100%"
+  alt="Computer Science"
+/>
 
-SOFTWARE ENGINEERING
-├── LLD
-├── System Design
-├── REST API Design
-├── Database Design
-└── Object-Oriented Design
-```
+</div>
+
+<br>
+
+---
+
+## 🚀 `things.i.build`
+
+<div align="center">
+
+<img
+  src="./assets/projects.svg"
+  width="100%"
+  alt="Projects"
+/>
+
+</div>
+
+<br>
 
 ---
 
@@ -148,9 +122,15 @@ SOFTWARE ENGINEERING
 
 <div align="center">
 
-<img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake"/>
+<img
+  src="./assets/github-contribution-grid-snake.svg"
+  width="100%"
+  alt="GitHub contribution snake"
+/>
 
 </div>
+
+<br>
 
 ---
 
@@ -158,11 +138,17 @@ SOFTWARE ENGINEERING
 
 <div align="center">
 
-<img height="180"
-src="https://github-readme-stats.vercel.app/api?username=Spade-2006&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=c084fc&icon_color=8b5cf6&text_color=a1a1aa"/>
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api?username=Spade-2006&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=c084fc&icon_color=8b5cf6&text_color=a1a1aa"
+  alt="GitHub Stats"
+/>
 
-<img height="180"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spade-2006&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=c084fc&text_color=a1a1aa"/>
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spade-2006&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=c084fc&text_color=a1a1aa"
+  alt="Top Languages"
+/>
 
 </div>
 
@@ -171,52 +157,188 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spade-2006&l
 <div align="center">
 
 <img
-src="https://streak-stats.demolab.com?user=Spade-2006&theme=tokyonight&hide_border=true&background=00000000&ring=c084fc&fire=a855f7&currStreakLabel=c084fc"
-width="70%"
+  src="https://streak-stats.demolab.com?user=Spade-2006&theme=tokyonight&hide_border=true&background=00000000&ring=c084fc&fire=a855f7&currStreakLabel=c084fc"
+  width="70%"
+  alt="GitHub Streak"
 />
 
 </div>
+
+<br>
 
 ---
 
 ## 🏆 `achievements`
 
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center" width="25%">
+
+### `550+`
+
+LeetCode Problems
+
+</td>
+
+<td align="center" width="25%">
+
+### `1600`
+
+Peak Contest Rating
+
+</td>
+
+<td align="center" width="25%">
+
+### `9.16`
+
+Current CGPA
+
+</td>
+
+<td align="center" width="25%">
+
+### `150+`
+
+Curated DSA Problems
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+<br>
+
+### `competitive.programming`
+
 ```text
-550+       LeetCode Problems
-1600       Peak Contest Rating
-9.16       Current CGPA
-150+       Curated DSA Problems
+DP              GRAPHS              TREES
+│                 │                   │
+├─ optimization  ├─ traversal        ├─ BST
+├─ states        ├─ shortest path    ├─ recursion
+└─ transitions   └─ connectivity     └─ trees
+
+STRINGS          SEARCH              COMPLEXITY
+│                 │                   │
+├─ patterns      ├─ binary search    ├─ Big-O
+├─ matching      └─ optimization     ├─ tradeoffs
+└─ manipulation                      └─ analysis
 ```
-
-### 🎯 Competitive Programming
-
-Focused on:
-
-`DP` · `Graphs` · `Trees` · `Strings` · `Optimization` · `Complexity Analysis`
 
 ---
 
 ## 🚧 `currently.learning`
 
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### `01` — Advanced DSA
+
+Going deeper into:
+
+- Dynamic Programming
+- Graph algorithms
+- Trees
+- Optimization
+- Complexity analysis
+
+</td>
+
+<td width="50%" valign="top">
+
+### `02` — Backend Architecture
+
+Exploring:
+
+- Scalable APIs
+- Database architecture
+- Caching
+- Authentication
+- Service design
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### `03` — System Design
+
+Currently exploring:
+
+- LLD
+- HLD
+- Distributed systems
+- Scalability
+- Reliability
+
+</td>
+
+<td width="50%" valign="top">
+
+### `04` — AI Engineering
+
+Going deeper into:
+
+- RAG
+- Agentic AI
+- LLM systems
+- Retrieval pipelines
+- AI application architecture
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### `05` — Infrastructure
+
+Learning:
+
+- Docker
+- Kubernetes
+- AWS
+- CI/CD
+- Cloud-native systems
+
+</td>
+
+<td width="50%" valign="top">
+
+### `06` — Building
+
+Current philosophy:
+
 ```text
-┌──────────────────────────────────────────────┐
-│                                              │
-│   🧠 Advanced DSA & Problem Solving          │
-│                                              │
-│   🏗️ Backend Architecture                    │
-│                                              │
-│   📐 Low Level Design                        │
-│                                              │
-│   🌐 System Design                            │
-│                                              │
-│   🤖 RAG & Agentic AI                        │
-│                                              │
-│   🐳 Docker & Kubernetes                     │
-│                                              │
-│   ☁️ Cloud & Distributed Systems             │
-│                                              │
-└──────────────────────────────────────────────┘
+learn
+  ↓
+build
+  ↓
+break
+  ↓
+debug
+  ↓
+understand
+  ↓
+build better
 ```
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -224,142 +346,176 @@ Focused on:
 
 <table>
 <tr>
-<td width="50%">
+
+<td width="50%" valign="top">
 
 ### 🧠 Intelligent Systems
 
-AI applications that actually solve problems instead of just putting a chatbot in the corner.
+Applications where AI actually has a purpose.
+
+Not:
+
+```text
+"add chatbot"
+```
+
+More like:
+
+```text
+data
+ ↓
+reasoning
+ ↓
+decision
+ ↓
+useful action
+```
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
 ### ⚙️ Backend Systems
 
-APIs, databases, architecture, caching, authentication and everything behind the UI.
+The stuff users don't see.
+
+```text
+APIs
+Databases
+Caching
+Auth
+Architecture
+Performance
+```
 
 </td>
+
 </tr>
 
 <tr>
-<td width="50%">
+
+<td width="50%" valign="top">
 
 ### 🎮 Experimental Projects
 
-Games, visualizations and weird ideas that make learning more interactive.
+Games, visual systems, interactive learning experiences and ideas that are slightly more ambitious than necessary.
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 📊 Data-Driven Products
 
-Applications where the database isn't just sitting there looking pretty.
+I like applications where the database actually matters.
+
+```text
+collect
+  ↓
+store
+  ↓
+process
+  ↓
+visualize
+  ↓
+decide
+```
 
 </td>
+
 </tr>
 </table>
 
 ---
 
-## 📌 `featured.projects`
+## 🧪 `build.philosophy`
 
-### ⚔️ AlgoVerse
-
-**Story-driven DSA learning RPG**
-
-> Learn Data Structures & Algorithms by actually living through them.
-
-Players explore a game world, encounter algorithmic challenges, solve visual puzzles and eventually implement the underlying algorithm through integrated coding trials.
-
-**Core loop**
+<div align="center">
 
 ```text
-EXPLORE
-   ↓
-ENCOUNTER
-   ↓
-DISCOVER
-   ↓
-SOLVE
-   ↓
-CODE
-   ↓
-UNLOCK
+        DON'T JUST LEARN
+              │
+              ▼
+        ┌─────────────┐
+        │   BUILD IT  │
+        └──────┬──────┘
+               │
+        ┌──────▼──────┐
+        │ BREAK  IT   │
+        └──────┬──────┘
+               │
+        ┌──────▼──────┐
+        │ UNDERSTAND  │
+        └──────┬──────┘
+               │
+        ┌──────▼──────┐
+        │  REBUILD IT │
+        └──────┬──────┘
+               │
+               ▼
+        ┌─────────────┐
+        │ BUILD BETTER│
+        └─────────────┘
 ```
 
-🔗 **Repository:**  
-https://github.com/Spade-2006/AlgoVerse
+</div>
 
----
-
-### 🧠 Disciplined-AF
-
-**Personalized fitness & progress tracking**
-
-A database-focused fitness tracking system built around workouts, progressive overload, cardio, steps, recovery and daily health metrics.
-
-🔗 **Repository:**  
-https://github.com/Spade-2006/Disciplined-AF
-
----
-
-### 🚦 HillFlow AI
-
-**Adaptive traffic decision system for hill cities**
-
-A decision-support prototype designed around the unique traffic problems of hill-road networks such as narrow roads, bottlenecks, heavy vehicles and changing traffic conditions.
-
-```text
-MAP / TRAFFIC DATA
-        ↓
-PROCESSING
-        ↓
-LLM DECISION ENGINE
-        ↓
-TRAFFIC INSIGHT
-        ↓
-ACTIONABLE INTERVENTION
-```
-
-🔗 **Repository:**  
-https://github.com/Spade-2006/HillFlow-AI
-
----
-
-### 💼 Job Pulse
-
-**Personal job-search operating system**
-
-A planned platform for managing the entire job-search process — from discovering opportunities to tracking applications, analytics, reminders and interview preparation.
-
-```text
-Next.js
-   ↓
-NestJS
-   ↓
-PostgreSQL
-   ↓
-Prisma
-```
-
-🔗 **Repository:**  
-https://github.com/Spade-2006/Job-Pulse
+<br>
 
 ---
 
 ## 🎨 `outside.the.code`
 
-```text
-✏️ Anime Sketching
-🗺️ Travel Sketching
-♟️ Chess
-📚 Reading
-🎧 Music / Podcasts / Audiobooks
-✈️ Travel
-```
+<table>
+<tr>
 
-Sometimes I also disappear for a while and come back with another unnecessarily ambitious project.
+<td align="center" width="16%">
+
+✏️  
+**Sketching**
+
+</td>
+
+<td align="center" width="16%">
+
+🗺️  
+**Travel**
+
+</td>
+
+<td align="center" width="16%">
+
+♟️  
+**Chess**
+
+</td>
+
+<td align="center" width="16%">
+
+📚  
+**Reading**
+
+</td>
+
+<td align="center" width="16%">
+
+🎧  
+**Music**
+
+</td>
+
+<td align="center" width="16%">
+
+🎙️  
+**Podcasts**
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+Sometimes I disappear for a while and come back with another unnecessarily ambitious project.
 
 ---
 
@@ -368,16 +524,23 @@ Sometimes I also disappear for a while and come back with another unnecessarily 
 <div align="center">
 
 <img
-src="https://github-readme-activity-graph.vercel.app/graph?username=Spade-2006&bg_color=00000000&color=c084fc&line=8b5cf6&point=ffffff&area=true&hide_border=true"
-width="100%"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=Spade-2006&bg_color=00000000&color=c084fc&line=8b5cf6&point=ffffff&area=true&hide_border=true"
+  width="100%"
+  alt="GitHub Activity Graph"
 />
 
 </div>
+
+<br>
 
 ---
 
 <div align="center">
 
-<img src="./assets/footer.svg" width="100%" alt="Let's build something"/>
+<img
+  src="./assets/footer.svg"
+  width="100%"
+  alt="Let's build something"
+/>
 
 </div>
