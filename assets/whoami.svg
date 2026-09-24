@@ -3,548 +3,494 @@
      height="520"
      viewBox="0 0 1200 520">
 
-  <defs>
-
-    <!-- Background -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080612"/>
-      <stop offset="50%" stop-color="#10091f"/>
-      <stop offset="100%" stop-color="#070914"/>
-    </linearGradient>
-
-    <!-- Accent -->
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="50%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#a855f7"/>
-    </linearGradient>
-
-    <linearGradient id="photoGlow" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#7c3aed"/>
-      <stop offset=".5" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#a855f7"/>
-    </linearGradient>
-
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="16"/>
-    </filter>
-
-    <!-- Photo clipping -->
-    <clipPath id="photoClip">
-      <rect x="72" y="120" width="280" height="310" rx="24"/>
-    </clipPath>
-
-    <style>
-
-      .terminal {
-        font-family: "Courier New", monospace;
-        font-size: 13px;
-        fill: #64748b;
-        letter-spacing: 1px;
-      }
-
-      .command {
-        font-family: "Courier New", monospace;
-        font-size: 14px;
-        fill: #94a3b8;
-      }
-
-      .name {
-        font-family: Inter, Arial, sans-serif;
-        font-size: 34px;
-        font-weight: 800;
-        fill: #f8fafc;
-        letter-spacing: 2px;
-      }
-
-      .role {
-        font-family: Inter, Arial, sans-serif;
-        font-size: 15px;
-        font-weight: 500;
-        fill: #a78bfa;
-        letter-spacing: 1px;
-      }
-
-      .label {
-        font-family: "Courier New", monospace;
-        font-size: 11px;
-        fill: #64748b;
-        letter-spacing: 1.5px;
-      }
-
-      .text {
-        font-family: Inter, Arial, sans-serif;
-        font-size: 14px;
-        fill: #cbd5e1;
-      }
-
-      .muted {
-        font-family: Inter, Arial, sans-serif;
-        font-size: 12px;
-        fill: #64748b;
-      }
-
-      .tree {
-        font-family: "Courier New", monospace;
-        font-size: 13px;
-        fill: #94a3b8;
-      }
-
-      .value {
-        fill: #e2e8f0;
-      }
-
-    </style>
-
-  </defs>
-
-
-  <!-- ================================================= -->
-  <!-- BACKGROUND -->
-  <!-- ================================================= -->
-
-  <rect
-    width="1200"
-    height="520"
-    rx="28"
-    fill="url(#bg)"
-  />
-
-  <!-- ambient glow -->
-  <circle
-    cx="190"
-    cy="250"
-    r="150"
-    fill="#7c3aed"
-    opacity=".08"
-    filter="url(#softGlow)"
-  />
-
-  <circle
-    cx="1030"
-    cy="300"
-    r="180"
-    fill="#22d3ee"
-    opacity=".05"
-    filter="url(#softGlow)"
-  />
-
-
-  <!-- ================================================= -->
-  <!-- TERMINAL HEADER -->
-  <!-- ================================================= -->
-
-  <rect
-    x="28"
-    y="28"
-    width="1144"
-    height="48"
-    rx="14"
-    fill="#0b0817"
-    stroke="#292342"
-  />
-
-  <!-- traffic lights -->
-
-  <circle cx="51" cy="52" r="6" fill="#ef4444"/>
-  <circle cx="71" cy="52" r="6" fill="#eab308"/>
-  <circle cx="91" cy="52" r="6" fill="#22c55e"/>
-
-  <text
-    x="120"
-    y="57"
-    class="terminal"
-  >
-    SATYANSH@DEVBOX
-  </text>
-
-  <text
-    x="1145"
-    y="57"
-    class="terminal"
-    text-anchor="end"
-  >
-    WHOAMI
-  </text>
-
-
-  <!-- ================================================= -->
-  <!-- PHOTO PANEL -->
-  <!-- ================================================= -->
-
-  <!-- glow behind photo -->
-
-  <rect
-    x="64"
-    y="112"
-    width="296"
-    height="326"
-    rx="28"
-    fill="url(#photoGlow)"
-    opacity=".22"
-    filter="url(#glow)"
-  />
-
-  <!-- frame -->
-
-  <rect
-    x="60"
-    y="108"
-    width="304"
-    height="334"
-    rx="28"
-    fill="#0d0a1c"
-    stroke="url(#accent)"
-    stroke-width="2"
-  />
-
-  <!-- photo -->
-
-  <g clip-path="url(#photoClip)">
-
-    <image
-      href="./satyansh.jpg"
-      x="72"
-      y="120"
-      width="280"
-      height="310"
-      preserveAspectRatio="xMidYMid slice"
-    />
-
-    <!-- subtle photo overlay -->
-
-    <rect
-      x="72"
-      y="120"
-      width="280"
-      height="310"
-      fill="url(#bg)"
-      opacity=".12"
-    />
-
-  </g>
-
-
-  <!-- photo corner brackets -->
-
-  <path
-    d="M72 155V130Q72 120 82 120H107"
-    fill="none"
-    stroke="#22d3ee"
-    stroke-width="2"
-  />
-
-  <path
-    d="M317 120H342Q352 120 352 130V155"
-    fill="none"
-    stroke="#a855f7"
-    stroke-width="2"
-  />
-
-  <path
-    d="M72 395V420Q72 430 82 430H107"
-    fill="none"
-    stroke="#7c3aed"
-    stroke-width="2"
-  />
-
-  <path
-    d="M317 430H342Q352 430 352 420V395"
-    fill="none"
-    stroke="#22d3ee"
-    stroke-width="2"
-  />
-
-
-  <!-- photo label -->
-
-  <rect
-    x="88"
-    y="392"
-    width="136"
-    height="27"
-    rx="8"
-    fill="#080612"
-    opacity=".9"
-    stroke="#292342"
-  />
-
-  <circle
-    cx="103"
-    cy="405"
-    r="4"
-    fill="#22c55e"
-    filter="url(#glow)"
-  />
-
-  <text
-    x="115"
-    y="409"
-    class="label"
-    fill="#94a3b8"
-  >
-    ONLINE / BUILDING
-  </text>
-
-
-  <!-- ================================================= -->
-  <!-- RIGHT CONTENT -->
-  <!-- ================================================= -->
-
-  <g transform="translate(410 110)">
-
-    <!-- command -->
-
-    <text
-      x="0"
-      y="0"
-      class="command"
-    >
-      <tspan fill="#22d3ee">$</tspan>
-      <tspan dx="8">cat identity.json</tspan>
-    </text>
-
-
-    <!-- Name -->
-
-    <text
-      x="0"
-      y="52"
-      class="name"
-    >
-      SATYANSH ACHARYA
-    </text>
-
-    <text
-      x="0"
-      y="79"
-      class="role"
-    >
-      B.Tech CSE  /  DEVELOPER  /  BUILDER
-    </text>
-
-
-    <!-- separator -->
-
-    <path
-      d="M0 102H705"
-      stroke="#292342"
-      stroke-width="1"
-    />
-
-
-    <!-- identity -->
-
-    <text
-      x="0"
-      y="130"
-      class="label"
-    >
-      IDENTITY
-    </text>
-
-
-    <text x="0" y="158" class="tree">
-      ├──
-      <tspan class="value">builds</tspan>
-      <tspan>      → web / backend / systems</tspan>
-    </text>
-
-    <text x="0" y="182" class="tree">
-      ├──
-      <tspan class="value">solves</tspan>
-      <tspan>      → DSA / core CS</tspan>
-    </text>
-
-    <text x="0" y="206" class="tree">
-      ├──
-      <tspan class="value">explores</tspan>
-      <tspan>    → AI / RAG / agents</tspan>
-    </text>
-
-    <text x="0" y="230" class="tree">
-      └──
-      <tspan class="value">creates</tspan>
-      <tspan>     → products / experiments</tspan>
-    </text>
-
-
-    <!-- CURRENT MODE -->
-
-    <text
-      x="0"
-      y="270"
-      class="label"
-    >
-      CURRENT MODE
-    </text>
-
-    <rect
-      x="0"
-      y="288"
-      width="705"
-      height="42"
-      rx="10"
-      fill="#0b0817"
-      stroke="#292342"
-    />
-
-    <circle
-      cx="22"
-      cy="309"
-      r="5"
-      fill="#22c55e"
-      filter="url(#glow)"
-    />
-
-    <text
-      x="40"
-      y="314"
-      class="text"
-    >
-      BUILDING
-    </text>
-
-    <text
-      x="150"
-      y="314"
-      class="muted"
-    >
-      → turning ideas into things that actually run
-    </text>
-
-
-    <!-- personality -->
-
-    <text
-      x="0"
-      y="370"
-      class="label"
-    >
-      PROCESS
-    </text>
-
-    <text
-      x="0"
-      y="397"
-      class="text"
-    >
-      learn
-    </text>
-
-    <text
-      x="55"
-      y="397"
-      class="muted"
-    >
-      →
-    </text>
-
-    <text
-      x="80"
-      y="397"
-      class="text"
-    >
-      build
-    </text>
-
-    <text
-      x="135"
-      y="397"
-      class="muted"
-    >
-      →
-    </text>
-
-    <text
-      x="160"
-      y="397"
-      class="text"
-    >
-      break
-    </text>
-
-    <text
-      x="220"
-      y="397"
-      class="muted"
-    >
-      →
-    </text>
-
-    <text
-      x="245"
-      y="397"
-      class="text"
-    >
-      fix
-    </text>
-
-    <text
-      x="285"
-      y="397"
-      class="muted"
-    >
-      →
-    </text>
-
-    <text
-      x="310"
-      y="397"
-      class="text"
-    >
-      repeat
-    </text>
-
-
-    <!-- bottom terminal -->
-
-    <text
-      x="0"
-      y="440"
-      class="command"
-    >
-      <tspan fill="#a855f7">$</tspan>
-      <tspan dx="8">./keep_building.sh</tspan>
-      <tspan fill="#22c55e" dx="8">✓</tspan>
-    </text>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!-- FOOT ACCENT -->
-  <!-- ================================================= -->
-
-  <path
-    d="M60 475H1140"
-    stroke="url(#accent)"
-    stroke-width="1"
-  />
-
-  <text
-    x="60"
-    y="500"
-    class="terminal"
-  >
-    STATUS: ONLINE
-  </text>
-
-  <text
-    x="1140"
-    y="500"
-    class="terminal"
-    text-anchor="end"
-  >
-    20XX // BUILD MODE
-  </text>
+<defs>
+
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080612"/>
+    <stop offset=".5" stop-color="#10091f"/>
+    <stop offset="1" stop-color="#070914"/>
+  </linearGradient>
+
+  <linearGradient id="accent" x1="0" x2="1">
+    <stop stop-color="#7c3aed"/>
+    <stop offset=".5" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#a855f7"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="18"/>
+  </filter>
+
+  <style>
+
+    .terminal{
+      font-family:"Courier New",monospace;
+      font-size:13px;
+      fill:#64748b;
+      letter-spacing:1px
+    }
+
+    .command{
+      font-family:"Courier New",monospace;
+      font-size:14px;
+      fill:#94a3b8
+    }
+
+    .name{
+      font-family:Inter,Arial,sans-serif;
+      font-size:34px;
+      font-weight:800;
+      fill:#f8fafc;
+      letter-spacing:2px
+    }
+
+    .role{
+      font-family:Inter,Arial,sans-serif;
+      font-size:15px;
+      font-weight:500;
+      fill:#a78bfa;
+      letter-spacing:1px
+    }
+
+    .label{
+      font-family:"Courier New",monospace;
+      font-size:11px;
+      fill:#64748b;
+      letter-spacing:1.5px
+    }
+
+    .text{
+      font-family:Inter,Arial,sans-serif;
+      font-size:14px;
+      fill:#cbd5e1
+    }
+
+    .muted{
+      font-family:Inter,Arial,sans-serif;
+      font-size:12px;
+      fill:#64748b
+    }
+
+    .tree{
+      font-family:"Courier New",monospace;
+      font-size:13px;
+      fill:#94a3b8
+    }
+
+    .value{
+      fill:#e2e8f0
+    }
+
+  </style>
+
+</defs>
+
+
+<!-- ================================================= -->
+<!-- BACKGROUND -->
+<!-- ================================================= -->
+
+<rect
+  width="1200"
+  height="520"
+  rx="28"
+  fill="url(#bg)"
+/>
+
+<circle
+  cx="180"
+  cy="270"
+  r="150"
+  fill="#7c3aed"
+  opacity=".08"
+  filter="url(#softGlow)"
+/>
+
+<circle
+  cx="1030"
+  cy="300"
+  r="180"
+  fill="#22d3ee"
+  opacity=".05"
+  filter="url(#softGlow)"
+/>
+
+
+<!-- ================================================= -->
+<!-- TERMINAL HEADER -->
+<!-- ================================================= -->
+
+<rect
+  x="28"
+  y="28"
+  width="1144"
+  height="48"
+  rx="14"
+  fill="#0b0817"
+  stroke="#292342"
+/>
+
+<circle cx="51" cy="52" r="6" fill="#ef4444"/>
+<circle cx="71" cy="52" r="6" fill="#eab308"/>
+<circle cx="91" cy="52" r="6" fill="#22c55e"/>
+
+<text
+  x="120"
+  y="57"
+  class="terminal"
+>
+SATYANSH@DEVBOX
+</text>
+
+<text
+  x="1145"
+  y="57"
+  class="terminal"
+  text-anchor="end"
+>
+WHOAMI
+</text>
+
+
+<!-- ================================================= -->
+<!-- PHOTO FRAME -->
+<!-- ================================================= -->
+
+<rect
+  x="60"
+  y="108"
+  width="304"
+  height="334"
+  rx="28"
+  fill="#0d0a1c"
+  stroke="url(#accent)"
+  stroke-width="2"
+  filter="url(#glow)"
+/>
+
+<!-- inner photo area -->
+
+<rect
+  x="72"
+  y="120"
+  width="280"
+  height="310"
+  rx="22"
+  fill="#11101d"
+/>
+
+
+<!-- PHOTO PLACEHOLDER -->
+
+<!--
+  IMPORTANT:
+
+  GitHub does not reliably render a sibling JPG
+  referenced from inside an SVG.
+
+  The photo is therefore intentionally left
+  as the frame here.
+
+  We will put your actual photo into the
+  README itself in the next block.
+-->
+
+<text
+  x="212"
+  y="270"
+  text-anchor="middle"
+  font-family="Inter,Arial,sans-serif"
+  font-size="15"
+  fill="#475569"
+  letter-spacing="3"
+>
+YOUR PHOTO
+</text>
+
+<text
+  x="212"
+  y="295"
+  text-anchor="middle"
+  font-family="Courier New,monospace"
+  font-size="10"
+  fill="#334155"
+  letter-spacing="1"
+>
+IMAGE SLOT
+</text>
+
+
+<!-- photo corner brackets -->
+
+<path
+  d="M72 155V130Q72 120 82 120H107"
+  fill="none"
+  stroke="#22d3ee"
+  stroke-width="2"
+/>
+
+<path
+  d="M317 120H342Q352 120 352 130V155"
+  fill="none"
+  stroke="#a855f7"
+  stroke-width="2"
+/>
+
+<path
+  d="M72 395V420Q72 430 82 430H107"
+  fill="none"
+  stroke="#7c3aed"
+  stroke-width="2"
+/>
+
+<path
+  d="M317 430H342Q352 430 352 420V395"
+  fill="none"
+  stroke="#22d3ee"
+  stroke-width="2"
+/>
+
+
+<!-- status -->
+
+<rect
+  x="88"
+  y="392"
+  width="145"
+  height="27"
+  rx="8"
+  fill="#080612"
+  opacity=".95"
+  stroke="#292342"
+/>
+
+<circle
+  cx="103"
+  cy="405"
+  r="4"
+  fill="#22c55e"
+  filter="url(#glow)"
+/>
+
+<text
+  x="115"
+  y="409"
+  class="label"
+>
+ONLINE / BUILDING
+</text>
+
+
+<!-- ================================================= -->
+<!-- RIGHT CONTENT -->
+<!-- ================================================= -->
+
+<g transform="translate(410 110)">
+
+<text
+  x="0"
+  y="0"
+  class="command"
+>
+<tspan fill="#22d3ee">$</tspan>
+<tspan dx="8">cat identity.json</tspan>
+</text>
+
+
+<text
+  x="0"
+  y="52"
+  class="name"
+>
+SATYANSH ACHARYA
+</text>
+
+<text
+  x="0"
+  y="79"
+  class="role"
+>
+B.Tech CSE  /  DEVELOPER  /  BUILDER
+</text>
+
+
+<path
+  d="M0 102H705"
+  stroke="#292342"
+  stroke-width="1"
+/>
+
+
+<!-- IDENTITY -->
+
+<text
+  x="0"
+  y="130"
+  class="label"
+>
+IDENTITY
+</text>
+
+
+<text
+  x="0"
+  y="158"
+  class="tree"
+>
+├── <tspan class="value">builds</tspan>
+      → web / backend / systems
+</text>
+
+<text
+  x="0"
+  y="182"
+  class="tree"
+>
+├── <tspan class="value">solves</tspan>
+      → DSA / core CS
+</text>
+
+<text
+  x="0"
+  y="206"
+  class="tree"
+>
+├── <tspan class="value">explores</tspan>
+    → AI / RAG / agents
+</text>
+
+<text
+  x="0"
+  y="230"
+  class="tree"
+>
+└── <tspan class="value">creates</tspan>
+     → products / experiments
+</text>
+
+
+<!-- CURRENT MODE -->
+
+<text
+  x="0"
+  y="270"
+  class="label"
+>
+CURRENT MODE
+</text>
+
+<rect
+  x="0"
+  y="288"
+  width="705"
+  height="42"
+  rx="10"
+  fill="#0b0817"
+  stroke="#292342"
+/>
+
+<circle
+  cx="22"
+  cy="309"
+  r="5"
+  fill="#22c55e"
+  filter="url(#glow)"
+/>
+
+<text
+  x="40"
+  y="314"
+  class="text"
+>
+BUILDING
+</text>
+
+<text
+  x="150"
+  y="314"
+  class="muted"
+>
+→ turning ideas into things that actually run
+</text>
+
+
+<!-- PROCESS -->
+
+<text
+  x="0"
+  y="370"
+  class="label"
+>
+PROCESS
+</text>
+
+<text x="0" y="397" class="text">learn</text>
+
+<text x="55" y="397" class="muted">→</text>
+
+<text x="80" y="397" class="text">build</text>
+
+<text x="135" y="397" class="muted">→</text>
+
+<text x="160" y="397" class="text">break</text>
+
+<text x="220" y="397" class="muted">→</text>
+
+<text x="245" y="397" class="text">fix</text>
+
+<text x="285" y="397" class="muted">→</text>
+
+<text x="310" y="397" class="text">repeat</text>
+
+
+<!-- TERMINAL FOOT -->
+
+<text
+  x="0"
+  y="440"
+  class="command"
+>
+<tspan fill="#a855f7">$</tspan>
+<tspan dx="8">./keep_building.sh</tspan>
+<tspan fill="#22c55e" dx="8">✓</tspan>
+</text>
+
+</g>
+
+
+<!-- ================================================= -->
+<!-- FOOT -->
+<!-- ================================================= -->
+
+<path
+  d="M60 475H1140"
+  stroke="url(#accent)"
+  stroke-width="1"
+/>
+
+<text
+  x="60"
+  y="500"
+  class="terminal"
+>
+STATUS: ONLINE
+</text>
+
+<text
+  x="1140"
+  y="500"
+  class="terminal"
+  text-anchor="end"
+>
+BUILD MODE
+</text>
 
 </svg>
