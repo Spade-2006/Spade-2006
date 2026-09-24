@@ -1,151 +1,550 @@
-<svg width="1200" height="390" viewBox="0 0 1200 390" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="520"
+     viewBox="0 0 1200 520">
 
-<defs>
+  <defs>
 
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#09070f"/>
-<stop offset=".55" stop-color="#12091d"/>
-<stop offset="1" stop-color="#070910"/>
-</linearGradient>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080612"/>
+      <stop offset="50%" stop-color="#10091f"/>
+      <stop offset="100%" stop-color="#070914"/>
+    </linearGradient>
 
-<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0" stop-color="#7c3aed"/>
-<stop offset=".5" stop-color="#c084fc"/>
-<stop offset="1" stop-color="#38bdf8"/>
-</linearGradient>
+    <!-- Accent -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
 
-<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
-<path d="M38 0H0V38" fill="none" stroke="#fff" stroke-opacity=".035"/>
-</pattern>
+    <linearGradient id="photoGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7c3aed"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
 
-</defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-<rect width="1200" height="390" rx="24" fill="url(#bg)"/>
-<rect width="1200" height="390" rx="24" fill="url(#grid)"/>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
 
-<!-- terminal -->
-<rect x="30" y="25" width="1140" height="44" rx="13"
-fill="#0b0910" stroke="#fff" stroke-opacity=".07"/>
+    <!-- Photo clipping -->
+    <clipPath id="photoClip">
+      <rect x="72" y="120" width="280" height="310" rx="24"/>
+    </clipPath>
 
-<circle cx="52" cy="47" r="5" fill="#ff5f57"/>
-<circle cx="70" cy="47" r="5" fill="#febc2e"/>
-<circle cx="88" cy="47" r="5" fill="#28c840"/>
+    <style>
 
-<text x="115" y="52"
-fill="#77717f"
-font-family="monospace"
-font-size="13">
-satyansh@github:~/whoami
-</text>
+      .terminal {
+        font-family: "Courier New", monospace;
+        font-size: 13px;
+        fill: #64748b;
+        letter-spacing: 1px;
+      }
 
-<!-- title -->
+      .command {
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+        fill: #94a3b8;
+      }
 
-<text x="55" y="112"
-fill="#8b5cf6"
-font-family="monospace"
-font-size="12">
-$ cat identity.json
-</text>
+      .name {
+        font-family: Inter, Arial, sans-serif;
+        font-size: 34px;
+        font-weight: 800;
+        fill: #f8fafc;
+        letter-spacing: 2px;
+      }
 
-<text x="55" y="151"
-fill="#fff"
-font-family="sans-serif"
-font-size="34"
-font-weight="700">
-WHO AM I?
-</text>
+      .role {
+        font-family: Inter, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        fill: #a78bfa;
+        letter-spacing: 1px;
+      }
 
-<rect x="55" y="168" width="1090" height="2" fill="url(#accent)" opacity=".7"/>
+      .label {
+        font-family: "Courier New", monospace;
+        font-size: 11px;
+        fill: #64748b;
+        letter-spacing: 1.5px;
+      }
 
-<!-- left -->
+      .text {
+        font-family: Inter, Arial, sans-serif;
+        font-size: 14px;
+        fill: #cbd5e1;
+      }
 
-<text x="60" y="207"
-fill="#c084fc"
-font-family="monospace"
-font-size="11">
-01 / IDENTITY
-</text>
+      .muted {
+        font-family: Inter, Arial, sans-serif;
+        font-size: 12px;
+        fill: #64748b;
+      }
 
-<text x="60" y="239"
-fill="#fff"
-font-family="sans-serif"
-font-size="22"
-font-weight="700">
-Satyansh Acharya
-</text>
+      .tree {
+        font-family: "Courier New", monospace;
+        font-size: 13px;
+        fill: #94a3b8;
+      }
 
-<text x="60" y="266"
-fill="#a1a1aa"
-font-family="sans-serif"
-font-size="14">
-B.Tech CSE student • Developer • Builder
-</text>
+      .value {
+        fill: #e2e8f0;
+      }
 
-<text x="60" y="296"
-fill="#71717a"
-font-family="sans-serif"
-font-size="13">
-I enjoy turning weird ideas into working systems.
-</text>
+    </style>
 
-<text x="60" y="318"
-fill="#71717a"
-font-family="sans-serif"
-font-size="13">
-Most of my projects start with "what if..."
-</text>
+  </defs>
 
-<!-- right -->
 
-<rect x="675" y="197" width="470" height="145"
-rx="17"
-fill="#0b0912"
-stroke="#8b5cf6"
-stroke-opacity=".25"/>
+  <!-- ================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================================= -->
 
-<text x="705" y="226"
-fill="#8b5cf6"
-font-family="monospace"
-font-size="10">
-CURRENT MODE
-</text>
+  <rect
+    width="1200"
+    height="520"
+    rx="28"
+    fill="url(#bg)"
+  />
 
-<text x="705" y="258"
-fill="#fff"
-font-family="sans-serif"
-font-size="18"
-font-weight="700">
-🧑‍💻 BUILDING
-</text>
+  <!-- ambient glow -->
+  <circle
+    cx="190"
+    cy="250"
+    r="150"
+    fill="#7c3aed"
+    opacity=".08"
+    filter="url(#softGlow)"
+  />
 
-<text x="705" y="285"
-fill="#a1a1aa"
-font-family="sans-serif"
-font-size="13">
-Full-Stack Systems
-</text>
+  <circle
+    cx="1030"
+    cy="300"
+    r="180"
+    fill="#22d3ee"
+    opacity=".05"
+    filter="url(#softGlow)"
+  />
 
-<text x="705" y="307"
-fill="#a1a1aa"
-font-family="sans-serif"
-font-size="13">
-Backend Architecture
-</text>
 
-<text x="705" y="329"
-fill="#a1a1aa"
-font-family="sans-serif"
-font-size="13">
-DSA • AI • System Design
-</text>
+  <!-- ================================================= -->
+  <!-- TERMINAL HEADER -->
+  <!-- ================================================= -->
 
-<!-- status -->
+  <rect
+    x="28"
+    y="28"
+    width="1144"
+    height="48"
+    rx="14"
+    fill="#0b0817"
+    stroke="#292342"
+  />
 
-<circle cx="1110" cy="218" r="6" fill="#a855f7">
-<animate attributeName="opacity"
-values=".3;1;.3"
-dur="1.8s"
-repeatCount="indefinite"/>
-</circle>
+  <!-- traffic lights -->
+
+  <circle cx="51" cy="52" r="6" fill="#ef4444"/>
+  <circle cx="71" cy="52" r="6" fill="#eab308"/>
+  <circle cx="91" cy="52" r="6" fill="#22c55e"/>
+
+  <text
+    x="120"
+    y="57"
+    class="terminal"
+  >
+    SATYANSH@DEVBOX
+  </text>
+
+  <text
+    x="1145"
+    y="57"
+    class="terminal"
+    text-anchor="end"
+  >
+    WHOAMI
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- PHOTO PANEL -->
+  <!-- ================================================= -->
+
+  <!-- glow behind photo -->
+
+  <rect
+    x="64"
+    y="112"
+    width="296"
+    height="326"
+    rx="28"
+    fill="url(#photoGlow)"
+    opacity=".22"
+    filter="url(#glow)"
+  />
+
+  <!-- frame -->
+
+  <rect
+    x="60"
+    y="108"
+    width="304"
+    height="334"
+    rx="28"
+    fill="#0d0a1c"
+    stroke="url(#accent)"
+    stroke-width="2"
+  />
+
+  <!-- photo -->
+
+  <g clip-path="url(#photoClip)">
+
+    <image
+      href="./satyansh.jpg"
+      x="72"
+      y="120"
+      width="280"
+      height="310"
+      preserveAspectRatio="xMidYMid slice"
+    />
+
+    <!-- subtle photo overlay -->
+
+    <rect
+      x="72"
+      y="120"
+      width="280"
+      height="310"
+      fill="url(#bg)"
+      opacity=".12"
+    />
+
+  </g>
+
+
+  <!-- photo corner brackets -->
+
+  <path
+    d="M72 155V130Q72 120 82 120H107"
+    fill="none"
+    stroke="#22d3ee"
+    stroke-width="2"
+  />
+
+  <path
+    d="M317 120H342Q352 120 352 130V155"
+    fill="none"
+    stroke="#a855f7"
+    stroke-width="2"
+  />
+
+  <path
+    d="M72 395V420Q72 430 82 430H107"
+    fill="none"
+    stroke="#7c3aed"
+    stroke-width="2"
+  />
+
+  <path
+    d="M317 430H342Q352 430 352 420V395"
+    fill="none"
+    stroke="#22d3ee"
+    stroke-width="2"
+  />
+
+
+  <!-- photo label -->
+
+  <rect
+    x="88"
+    y="392"
+    width="136"
+    height="27"
+    rx="8"
+    fill="#080612"
+    opacity=".9"
+    stroke="#292342"
+  />
+
+  <circle
+    cx="103"
+    cy="405"
+    r="4"
+    fill="#22c55e"
+    filter="url(#glow)"
+  />
+
+  <text
+    x="115"
+    y="409"
+    class="label"
+    fill="#94a3b8"
+  >
+    ONLINE / BUILDING
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- RIGHT CONTENT -->
+  <!-- ================================================= -->
+
+  <g transform="translate(410 110)">
+
+    <!-- command -->
+
+    <text
+      x="0"
+      y="0"
+      class="command"
+    >
+      <tspan fill="#22d3ee">$</tspan>
+      <tspan dx="8">cat identity.json</tspan>
+    </text>
+
+
+    <!-- Name -->
+
+    <text
+      x="0"
+      y="52"
+      class="name"
+    >
+      SATYANSH ACHARYA
+    </text>
+
+    <text
+      x="0"
+      y="79"
+      class="role"
+    >
+      B.Tech CSE  /  DEVELOPER  /  BUILDER
+    </text>
+
+
+    <!-- separator -->
+
+    <path
+      d="M0 102H705"
+      stroke="#292342"
+      stroke-width="1"
+    />
+
+
+    <!-- identity -->
+
+    <text
+      x="0"
+      y="130"
+      class="label"
+    >
+      IDENTITY
+    </text>
+
+
+    <text x="0" y="158" class="tree">
+      ├──
+      <tspan class="value">builds</tspan>
+      <tspan>      → web / backend / systems</tspan>
+    </text>
+
+    <text x="0" y="182" class="tree">
+      ├──
+      <tspan class="value">solves</tspan>
+      <tspan>      → DSA / core CS</tspan>
+    </text>
+
+    <text x="0" y="206" class="tree">
+      ├──
+      <tspan class="value">explores</tspan>
+      <tspan>    → AI / RAG / agents</tspan>
+    </text>
+
+    <text x="0" y="230" class="tree">
+      └──
+      <tspan class="value">creates</tspan>
+      <tspan>     → products / experiments</tspan>
+    </text>
+
+
+    <!-- CURRENT MODE -->
+
+    <text
+      x="0"
+      y="270"
+      class="label"
+    >
+      CURRENT MODE
+    </text>
+
+    <rect
+      x="0"
+      y="288"
+      width="705"
+      height="42"
+      rx="10"
+      fill="#0b0817"
+      stroke="#292342"
+    />
+
+    <circle
+      cx="22"
+      cy="309"
+      r="5"
+      fill="#22c55e"
+      filter="url(#glow)"
+    />
+
+    <text
+      x="40"
+      y="314"
+      class="text"
+    >
+      BUILDING
+    </text>
+
+    <text
+      x="150"
+      y="314"
+      class="muted"
+    >
+      → turning ideas into things that actually run
+    </text>
+
+
+    <!-- personality -->
+
+    <text
+      x="0"
+      y="370"
+      class="label"
+    >
+      PROCESS
+    </text>
+
+    <text
+      x="0"
+      y="397"
+      class="text"
+    >
+      learn
+    </text>
+
+    <text
+      x="55"
+      y="397"
+      class="muted"
+    >
+      →
+    </text>
+
+    <text
+      x="80"
+      y="397"
+      class="text"
+    >
+      build
+    </text>
+
+    <text
+      x="135"
+      y="397"
+      class="muted"
+    >
+      →
+    </text>
+
+    <text
+      x="160"
+      y="397"
+      class="text"
+    >
+      break
+    </text>
+
+    <text
+      x="220"
+      y="397"
+      class="muted"
+    >
+      →
+    </text>
+
+    <text
+      x="245"
+      y="397"
+      class="text"
+    >
+      fix
+    </text>
+
+    <text
+      x="285"
+      y="397"
+      class="muted"
+    >
+      →
+    </text>
+
+    <text
+      x="310"
+      y="397"
+      class="text"
+    >
+      repeat
+    </text>
+
+
+    <!-- bottom terminal -->
+
+    <text
+      x="0"
+      y="440"
+      class="command"
+    >
+      <tspan fill="#a855f7">$</tspan>
+      <tspan dx="8">./keep_building.sh</tspan>
+      <tspan fill="#22c55e" dx="8">✓</tspan>
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- FOOT ACCENT -->
+  <!-- ================================================= -->
+
+  <path
+    d="M60 475H1140"
+    stroke="url(#accent)"
+    stroke-width="1"
+  />
+
+  <text
+    x="60"
+    y="500"
+    class="terminal"
+  >
+    STATUS: ONLINE
+  </text>
+
+  <text
+    x="1140"
+    y="500"
+    class="terminal"
+    text-anchor="end"
+  >
+    20XX // BUILD MODE
+  </text>
 
 </svg>
