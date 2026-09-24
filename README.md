@@ -5,7 +5,7 @@
 <br><br>
 
 <a href="https://www.linkedin.com/in/satyansh-acharya/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30" alt="LinkedIn"/>
+  <img src="https://cdn.simpleicons.org/linkedin/8b5cf6" width="30" alt="LinkedIn"/>
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="mailto:acharyasatyansh@gmail.com">
@@ -72,27 +72,33 @@
 
 ---
 
-## 📊 `Contribution Matrix`
-
-<div align="center">
-<img src="./assets/contribution.svg" width="100%" alt="GitHub Contribution Matrix"/>
-</div>
-
-<br>
-
----
-
 ## 🐍 `Contribution Snake`
 
 <div align="center">
-<img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake"/>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Spade-2006/Spade-2006/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Spade-2006/Spade-2006/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/Spade-2006/Spade-2006/output/github-contribution-grid-snake.svg"
+    width="100%"
+    alt="GitHub Contribution Snake"
+  />
+</picture>
+
 </div>
 
 <br>
 
 ---
 
-## 📈 `Github Stats`
+## 📊 `Github Stats`
 
 <div align="center">
 <img src="./assets/github-stats.svg" width="100%" alt="GitHub Statistics"/>
@@ -146,16 +152,6 @@
 
 <div align="center">
 <img src="./assets/offline.svg" width="100%" alt="Outside the Code"/>
-</div>
-
-<br>
-
----
-
-## 📈 `Activity`
-
-<div align="center">
-<img src="./assets/activity.svg" width="100%" alt="GitHub Activity"/>
 </div>
 
 <br>
