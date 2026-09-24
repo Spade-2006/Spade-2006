@@ -1,0 +1,836 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="1200"
+height="620"
+viewBox="0 0 1200 620">
+
+<defs>
+
+    <linearGradient
+        id="bg"
+        x1="0"
+        y1="0"
+        x2="1"
+        y2="1">
+
+        <stop
+            offset="0%"
+            stop-color="#070914"/>
+
+        <stop
+            offset="55%"
+            stop-color="#090b19"/>
+
+        <stop
+            offset="100%"
+            stop-color="#12091d"/>
+
+    </linearGradient>
+
+
+    <linearGradient
+        id="accent"
+        x1="0"
+        y1="0"
+        x2="1"
+        y2="0">
+
+        <stop
+            offset="0%"
+            stop-color="#8b5cf6"/>
+
+        <stop
+            offset="50%"
+            stop-color="#c084fc"/>
+
+        <stop
+            offset="100%"
+            stop-color="#38bdf8"/>
+
+    </linearGradient>
+
+</defs>
+
+
+<!-- BACKGROUND -->
+
+<rect
+    width="100%"
+    height="100%"
+    rx="28"
+    fill="url(#bg)"
+/>
+
+
+<!-- GRID -->
+
+<g opacity="0.10">
+
+
+    <line
+        x1="0"
+        y1="0"
+        x2="0"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="50"
+        y1="0"
+        x2="50"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="100"
+        y1="0"
+        x2="100"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="150"
+        y1="0"
+        x2="150"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="200"
+        y1="0"
+        x2="200"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="250"
+        y1="0"
+        x2="250"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="300"
+        y1="0"
+        x2="300"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="350"
+        y1="0"
+        x2="350"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="400"
+        y1="0"
+        x2="400"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="450"
+        y1="0"
+        x2="450"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="500"
+        y1="0"
+        x2="500"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="550"
+        y1="0"
+        x2="550"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="600"
+        y1="0"
+        x2="600"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="650"
+        y1="0"
+        x2="650"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="700"
+        y1="0"
+        x2="700"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="750"
+        y1="0"
+        x2="750"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="800"
+        y1="0"
+        x2="800"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="850"
+        y1="0"
+        x2="850"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="900"
+        y1="0"
+        x2="900"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="950"
+        y1="0"
+        x2="950"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1000"
+        y1="0"
+        x2="1000"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1050"
+        y1="0"
+        x2="1050"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1100"
+        y1="0"
+        x2="1100"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1150"
+        y1="0"
+        x2="1150"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1200"
+        y1="0"
+        x2="1200"
+        y2="620"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="0"
+        x2="1200"
+        y2="0"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="50"
+        x2="1200"
+        y2="50"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="100"
+        x2="1200"
+        y2="100"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="150"
+        x2="1200"
+        y2="150"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="200"
+        x2="1200"
+        y2="200"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="250"
+        x2="1200"
+        y2="250"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="300"
+        x2="1200"
+        y2="300"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="350"
+        x2="1200"
+        y2="350"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="400"
+        x2="1200"
+        y2="400"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="450"
+        x2="1200"
+        y2="450"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="500"
+        x2="1200"
+        y2="500"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="550"
+        x2="1200"
+        y2="550"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="600"
+        x2="1200"
+        y2="600"
+        stroke="#252846"
+    />
+    
+
+</g>
+
+
+<!-- HEADER -->
+
+<circle
+    cx="40"
+    cy="36"
+    r="6"
+    fill="#22c55e"
+/>
+
+
+<text
+    x="57"
+    y="41"
+    fill="#858aa8"
+    font-family="monospace"
+    font-size="13"
+    font-weight="600">
+
+    GITHUB // DEVELOPER TELEMETRY
+
+</text>
+
+
+<text
+    x="40"
+    y="78"
+    fill="#f4f1ff"
+    font-family="monospace"
+    font-size="27"
+    font-weight="700">
+
+    BUILDING IN PUBLIC
+
+</text>
+
+
+<line
+    x1="40"
+    y1="100"
+    x2="1160"
+    y2="100"
+    stroke="url(#accent)"
+    stroke-width="2"
+    opacity="0.7"
+/>
+
+
+<!-- STAT CARDS -->
+
+
+
+    <g>
+
+        <rect
+            x="40"
+            y="125"
+            width="255"
+            height="105"
+            rx="16"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <text
+            x="60"
+            y="152"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="10"
+            font-weight="600">
+
+            PUBLIC REPOSITORIES
+
+        </text>
+
+        <text
+            x="60"
+            y="189"
+            fill="#f4f1ff"
+            font-family="monospace"
+            font-size="25"
+            font-weight="700">
+
+            5
+
+        </text>
+
+        <text
+            x="60"
+            y="212"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="10">
+
+            projects currently public
+
+        </text>
+
+    </g>
+
+    
+
+    <g>
+
+        <rect
+            x="315"
+            y="125"
+            width="255"
+            height="105"
+            rx="16"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <text
+            x="335"
+            y="152"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="10"
+            font-weight="600">
+
+            FOLLOWERS
+
+        </text>
+
+        <text
+            x="335"
+            y="189"
+            fill="#f4f1ff"
+            font-family="monospace"
+            font-size="25"
+            font-weight="700">
+
+            0
+
+        </text>
+
+        <text
+            x="335"
+            y="212"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="10">
+
+            developers following
+
+        </text>
+
+    </g>
+
+    
+
+    <g>
+
+        <rect
+            x="590"
+            y="125"
+            width="255"
+            height="105"
+            rx="16"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <text
+            x="610"
+            y="152"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="10"
+            font-weight="600">
+
+            TOTAL STARS
+
+        </text>
+
+        <text
+            x="610"
+            y="189"
+            fill="#f4f1ff"
+            font-family="monospace"
+            font-size="25"
+            font-weight="700">
+
+            0
+
+        </text>
+
+        <text
+            x="610"
+            y="212"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="10">
+
+            stars across repositories
+
+        </text>
+
+    </g>
+
+    
+
+    <g>
+
+        <rect
+            x="865"
+            y="125"
+            width="255"
+            height="105"
+            rx="16"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <text
+            x="885"
+            y="152"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="10"
+            font-weight="600">
+
+            FORKS
+
+        </text>
+
+        <text
+            x="885"
+            y="189"
+            fill="#f4f1ff"
+            font-family="monospace"
+            font-size="25"
+            font-weight="700">
+
+            0
+
+        </text>
+
+        <text
+            x="885"
+            y="212"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="10">
+
+            repository forks
+
+        </text>
+
+    </g>
+
+    
+
+<rect
+    x="40"
+    y="260"
+    width="540"
+    height="265"
+    rx="18"
+    fill="#0c0f20"
+    stroke="#24284a"
+/>
+
+
+<text
+    x="65"
+    y="295"
+    fill="#c084fc"
+    font-family="monospace"
+    font-size="11"
+    font-weight="700">
+
+    CONTRIBUTION ACTIVITY
+
+</text>
+
+
+<text
+    x="65"
+    y="335"
+    fill="#f4f1ff"
+    font-family="monospace"
+    font-size="30"
+    font-weight="700">
+
+    45
+
+</text>
+
+
+<text
+    x="65"
+    y="357"
+    fill="#858aa8"
+    font-family="Arial"
+    font-size="11">
+
+    contribution intensity
+
+</text>
+
+
+<line
+    x1="65"
+    y1="382"
+    x2="555"
+    y2="382"
+    stroke="#24284a"
+/>
+
+
+<text
+    x="65"
+    y="414"
+    fill="#858aa8"
+    font-family="monospace"
+    font-size="10">
+
+    ACCOUNT
+
+</text>
+
+
+<text
+    x="160"
+    y="414"
+    fill="#f4f1ff"
+    font-family="Arial"
+    font-size="11">
+
+    GitHub
+
+</text>
+
+
+<text
+    x="65"
+    y="443"
+    fill="#858aa8"
+    font-family="monospace"
+    font-size="10">
+
+    FOLLOWING
+
+</text>
+
+
+<text
+    x="160"
+    y="443"
+    fill="#f4f1ff"
+    font-family="Arial"
+    font-size="11">
+
+    0
+
+</text>
+
+
+<text
+    x="65"
+    y="472"
+    fill="#858aa8"
+    font-family="monospace"
+    font-size="10">
+
+    PROFILE
+
+</text>
+
+
+<text
+    x="160"
+    y="472"
+    fill="#38bdf8"
+    font-family="monospace"
+    font-size="10">
+
+    github.com/Spade-2006
+
+</text>
+
+
+
+<!-- LANGUAGE PANEL -->
+
+<rect
+    x="600"
+    y="260"
+    width="560"
+    height="265"
+    rx="18"
+    fill="#0c0f20"
+    stroke="#24284a"
+/>
+
+
+<text
+    x="625"
+    y="295"
+    fill="#c084fc"
+    font-family="monospace"
+    font-size="11"
+    font-weight="700">
+
+    LANGUAGE DISTRIBUTION
+
+</text>
+
+
+    <text
+        x="625"
+        y="340"
+        fill="#858aa8"
+        font-family="Arial, sans-serif"
+        font-size="12px"
+        font-weight="400"
+        text-anchor="start">
+        Language data unavailable
+    </text>
+    
+
+<line
+    x1="40"
+    y1="555"
+    x2="1160"
+    y2="555"
+    stroke="#24284a"
+/>
+
+
+<text
+    x="40"
+    y="585"
+    fill="#858aa8"
+    font-family="monospace"
+    font-size="10">
+
+    CODE • SHIP • LEARN • REPEAT
+
+</text>
+
+
+<text
+    x="1160"
+    y="585"
+    fill="#c084fc"
+    font-family="monospace"
+    font-size="10"
+    text-anchor="end">
+
+    Spade-2006
+
+</text>
+
+
+</svg>

@@ -1,0 +1,1230 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="1200"
+height="900"
+viewBox="0 0 1200 900">
+
+<defs>
+
+    <linearGradient
+        id="bg"
+        x1="0"
+        y1="0"
+        x2="1"
+        y2="1">
+
+        <stop
+            offset="0%"
+            stop-color="#070914"/>
+
+        <stop
+            offset="55%"
+            stop-color="#090b19"/>
+
+        <stop
+            offset="100%"
+            stop-color="#12091d"/>
+
+    </linearGradient>
+
+
+    <linearGradient
+        id="accent"
+        x1="0"
+        y1="0"
+        x2="1"
+        y2="0">
+
+        <stop
+            offset="0%"
+            stop-color="#8b5cf6"/>
+
+        <stop
+            offset="50%"
+            stop-color="#c084fc"/>
+
+        <stop
+            offset="100%"
+            stop-color="#38bdf8"/>
+
+    </linearGradient>
+
+</defs>
+
+
+<!-- ===================================================== -->
+<!-- BACKGROUND -->
+<!-- ===================================================== -->
+
+<rect
+    width="100%"
+    height="100%"
+    rx="28"
+    fill="url(#bg)"
+/>
+
+
+<!-- ===================================================== -->
+<!-- GRID -->
+<!-- ===================================================== -->
+
+<g opacity="0.10">
+
+    <line
+        x1="0"
+        y1="0"
+        x2="0"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="50"
+        y1="0"
+        x2="50"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="100"
+        y1="0"
+        x2="100"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="150"
+        y1="0"
+        x2="150"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="200"
+        y1="0"
+        x2="200"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="250"
+        y1="0"
+        x2="250"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="300"
+        y1="0"
+        x2="300"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="350"
+        y1="0"
+        x2="350"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="400"
+        y1="0"
+        x2="400"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="450"
+        y1="0"
+        x2="450"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="500"
+        y1="0"
+        x2="500"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="550"
+        y1="0"
+        x2="550"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="600"
+        y1="0"
+        x2="600"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="650"
+        y1="0"
+        x2="650"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="700"
+        y1="0"
+        x2="700"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="750"
+        y1="0"
+        x2="750"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="800"
+        y1="0"
+        x2="800"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="850"
+        y1="0"
+        x2="850"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="900"
+        y1="0"
+        x2="900"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="950"
+        y1="0"
+        x2="950"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1000"
+        y1="0"
+        x2="1000"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1050"
+        y1="0"
+        x2="1050"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1100"
+        y1="0"
+        x2="1100"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1150"
+        y1="0"
+        x2="1150"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="1200"
+        y1="0"
+        x2="1200"
+        y2="900"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="0"
+        x2="1200"
+        y2="0"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="50"
+        x2="1200"
+        y2="50"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="100"
+        x2="1200"
+        y2="100"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="150"
+        x2="1200"
+        y2="150"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="200"
+        x2="1200"
+        y2="200"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="250"
+        x2="1200"
+        y2="250"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="300"
+        x2="1200"
+        y2="300"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="350"
+        x2="1200"
+        y2="350"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="400"
+        x2="1200"
+        y2="400"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="450"
+        x2="1200"
+        y2="450"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="500"
+        x2="1200"
+        y2="500"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="550"
+        x2="1200"
+        y2="550"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="600"
+        x2="1200"
+        y2="600"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="650"
+        x2="1200"
+        y2="650"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="700"
+        x2="1200"
+        y2="700"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="750"
+        x2="1200"
+        y2="750"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="800"
+        x2="1200"
+        y2="800"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="850"
+        x2="1200"
+        y2="850"
+        stroke="#252846"
+    />
+    
+    <line
+        x1="0"
+        y1="900"
+        x2="1200"
+        y2="900"
+        stroke="#252846"
+    />
+    
+</g>
+
+
+<!-- ===================================================== -->
+<!-- HEADER -->
+<!-- ===================================================== -->
+
+<circle
+    cx="40"
+    cy="36"
+    r="6"
+    fill="#22c55e"
+/>
+
+
+<text
+    x="57"
+    y="41"
+    fill="#858aa8"
+    font-family="monospace"
+    font-size="13"
+    font-weight="600">
+
+    ACHIEVEMENTS // CREDENTIALS
+
+</text>
+
+
+<text
+    x="40"
+    y="78"
+    fill="#f4f1ff"
+    font-family="monospace"
+    font-size="27"
+    font-weight="700">
+
+    PROOF OF WORK
+
+</text>
+
+
+<line
+    x1="40"
+    y1="100"
+    x2="1160"
+    y2="100"
+    stroke="url(#accent)"
+    stroke-width="2"
+    opacity="0.7"
+/>
+
+
+<!-- ===================================================== -->
+<!-- METRICS -->
+<!-- ===================================================== -->
+
+
+    <g>
+
+        <rect
+            x="40"
+            y="125"
+            width="255"
+            height="115"
+            rx="18"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <text
+            x="64"
+            y="173"
+            fill="#f4f1ff"
+            font-family="monospace"
+            font-size="28"
+            font-weight="700">
+
+            550+
+
+        </text>
+
+        <text
+            x="64"
+            y="207"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            LEETCODE PROBLEMS
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="315"
+            y="125"
+            width="255"
+            height="115"
+            rx="18"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <text
+            x="339"
+            y="173"
+            fill="#f4f1ff"
+            font-family="monospace"
+            font-size="28"
+            font-weight="700">
+
+            1600
+
+        </text>
+
+        <text
+            x="339"
+            y="207"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            PEAK CONTEST RATING
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="590"
+            y="125"
+            width="255"
+            height="115"
+            rx="18"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <text
+            x="614"
+            y="173"
+            fill="#f4f1ff"
+            font-family="monospace"
+            font-size="28"
+            font-weight="700">
+
+            9.16
+
+        </text>
+
+        <text
+            x="614"
+            y="207"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            CURRENT CGPA
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="865"
+            y="125"
+            width="255"
+            height="115"
+            rx="18"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <text
+            x="889"
+            y="173"
+            fill="#f4f1ff"
+            font-family="monospace"
+            font-size="28"
+            font-weight="700">
+
+            150+
+
+        </text>
+
+        <text
+            x="889"
+            y="207"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            CURATED DSA PROBLEMS
+
+        </text>
+
+    </g>
+    
+
+<text
+    x="40"
+    y="285"
+    fill="#c084fc"
+    font-family="monospace"
+    font-size="12"
+    font-weight="700">
+
+    CERTIFICATIONS
+
+</text>
+
+
+<text
+    x="40"
+    y="310"
+    fill="#858aa8"
+    font-family="Arial"
+    font-size="11">
+
+    A growing collection of things actually completed.
+
+</text>
+
+
+    <g>
+
+        <rect
+            x="40"
+            y="340"
+            width="535"
+            height="82"
+            rx="14"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <rect
+            x="40"
+            y="340"
+            width="4"
+            height="82"
+            rx="2"
+            fill="#c084fc"
+        />
+
+        <circle
+            cx="67"
+            cy="367"
+            r="7"
+            fill="#c084fc"
+        />
+
+        <text
+            x="88"
+            y="370"
+            fill="#f4f1ff"
+            font-family="Arial"
+            font-size="13"
+            font-weight="700">
+
+            Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate
+
+        </text>
+
+        <text
+            x="88"
+            y="394"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            Oracle
+
+        </text>
+
+        <text
+            x="530"
+            y="370"
+            fill="#c084fc"
+            font-family="monospace"
+            font-size="10"
+            text-anchor="end">
+
+            2025
+
+        </text>
+
+        <text
+            x="530"
+            y="396"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="9"
+            text-anchor="end">
+
+            VERIFIED
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="625"
+            y="340"
+            width="535"
+            height="82"
+            rx="14"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <rect
+            x="625"
+            y="340"
+            width="4"
+            height="82"
+            rx="2"
+            fill="#38bdf8"
+        />
+
+        <circle
+            cx="652"
+            cy="367"
+            r="7"
+            fill="#38bdf8"
+        />
+
+        <text
+            x="673"
+            y="370"
+            fill="#f4f1ff"
+            font-family="Arial"
+            font-size="13"
+            font-weight="700">
+
+            Agentic AI Certified Foundations Associate
+
+        </text>
+
+        <text
+            x="673"
+            y="394"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            Oracle
+
+        </text>
+
+        <text
+            x="1115"
+            y="370"
+            fill="#38bdf8"
+            font-family="monospace"
+            font-size="10"
+            text-anchor="end">
+
+            2026
+
+        </text>
+
+        <text
+            x="1115"
+            y="396"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="9"
+            text-anchor="end">
+
+            VERIFIED
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="40"
+            y="434"
+            width="535"
+            height="82"
+            rx="14"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <rect
+            x="40"
+            y="434"
+            width="4"
+            height="82"
+            rx="2"
+            fill="#22c55e"
+        />
+
+        <circle
+            cx="67"
+            cy="461"
+            r="7"
+            fill="#22c55e"
+        />
+
+        <text
+            x="88"
+            y="464"
+            fill="#f4f1ff"
+            font-family="Arial"
+            font-size="13"
+            font-weight="700">
+
+            Node.js Intermediate
+
+        </text>
+
+        <text
+            x="88"
+            y="488"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            HackerRank
+
+        </text>
+
+        <text
+            x="530"
+            y="464"
+            fill="#22c55e"
+            font-family="monospace"
+            font-size="10"
+            text-anchor="end">
+
+            2026
+
+        </text>
+
+        <text
+            x="530"
+            y="490"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="9"
+            text-anchor="end">
+
+            VERIFIED
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="625"
+            y="434"
+            width="535"
+            height="82"
+            rx="14"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <rect
+            x="625"
+            y="434"
+            width="4"
+            height="82"
+            rx="2"
+            fill="#c084fc"
+        />
+
+        <circle
+            cx="652"
+            cy="461"
+            r="7"
+            fill="#c084fc"
+        />
+
+        <text
+            x="673"
+            y="464"
+            fill="#f4f1ff"
+            font-family="Arial"
+            font-size="13"
+            font-weight="700">
+
+            MERN Full-Stack Web Development
+
+        </text>
+
+        <text
+            x="673"
+            y="488"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            30DaysCoding
+
+        </text>
+
+        <text
+            x="1115"
+            y="464"
+            fill="#c084fc"
+            font-family="monospace"
+            font-size="10"
+            text-anchor="end">
+
+            2026
+
+        </text>
+
+        <text
+            x="1115"
+            y="490"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="9"
+            text-anchor="end">
+
+            VERIFIED
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="40"
+            y="528"
+            width="535"
+            height="82"
+            rx="14"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <rect
+            x="40"
+            y="528"
+            width="4"
+            height="82"
+            rx="2"
+            fill="#38bdf8"
+        />
+
+        <circle
+            cx="67"
+            cy="555"
+            r="7"
+            fill="#38bdf8"
+        />
+
+        <text
+            x="88"
+            y="558"
+            fill="#f4f1ff"
+            font-family="Arial"
+            font-size="13"
+            font-weight="700">
+
+            Introduction to Cloud Job Simulation
+
+        </text>
+
+        <text
+            x="88"
+            y="582"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            Datacom / Forage
+
+        </text>
+
+        <text
+            x="530"
+            y="558"
+            fill="#38bdf8"
+            font-family="monospace"
+            font-size="10"
+            text-anchor="end">
+
+            2026
+
+        </text>
+
+        <text
+            x="530"
+            y="584"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="9"
+            text-anchor="end">
+
+            VERIFIED
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="625"
+            y="528"
+            width="535"
+            height="82"
+            rx="14"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <rect
+            x="625"
+            y="528"
+            width="4"
+            height="82"
+            rx="2"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="652"
+            cy="555"
+            r="7"
+            fill="#a78bfa"
+        />
+
+        <text
+            x="673"
+            y="558"
+            fill="#f4f1ff"
+            font-family="Arial"
+            font-size="13"
+            font-weight="700">
+
+            Agentic AI by OpenCode
+
+        </text>
+
+        <text
+            x="673"
+            y="582"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            Udemy
+
+        </text>
+
+        <text
+            x="1115"
+            y="558"
+            fill="#a78bfa"
+            font-family="monospace"
+            font-size="10"
+            text-anchor="end">
+
+            2026
+
+        </text>
+
+        <text
+            x="1115"
+            y="584"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="9"
+            text-anchor="end">
+
+            VERIFIED
+
+        </text>
+
+    </g>
+    
+    <g>
+
+        <rect
+            x="40"
+            y="622"
+            width="535"
+            height="82"
+            rx="14"
+            fill="#0c0f20"
+            stroke="#24284a"
+        />
+
+        <rect
+            x="40"
+            y="622"
+            width="4"
+            height="82"
+            rx="2"
+            fill="#67e8f9"
+        />
+
+        <circle
+            cx="67"
+            cy="649"
+            r="7"
+            fill="#67e8f9"
+        />
+
+        <text
+            x="88"
+            y="652"
+            fill="#f4f1ff"
+            font-family="Arial"
+            font-size="13"
+            font-weight="700">
+
+            Summer PEP 2026
+
+        </text>
+
+        <text
+            x="88"
+            y="676"
+            fill="#858aa8"
+            font-family="Arial"
+            font-size="11">
+
+            Coding Spoon
+
+        </text>
+
+        <text
+            x="530"
+            y="652"
+            fill="#67e8f9"
+            font-family="monospace"
+            font-size="10"
+            text-anchor="end">
+
+            2026
+
+        </text>
+
+        <text
+            x="530"
+            y="678"
+            fill="#858aa8"
+            font-family="monospace"
+            font-size="9"
+            text-anchor="end">
+
+            VERIFIED
+
+        </text>
+
+    </g>
+    
+
+<line
+    x1="40"
+    y1="736"
+    x2="1160"
+    y2="736"
+    stroke="#24284a"
+/>
+
+
+<text
+    x="40"
+    y="766"
+    fill="#858aa8"
+    font-family="monospace"
+    font-size="10">
+
+    LEARN • BUILD • SOLVE • SHIP
+
+</text>
+
+
+<text
+    x="1160"
+    y="766"
+    fill="#c084fc"
+    font-family="monospace"
+    font-size="10"
+    text-anchor="end">
+
+    SATYANSH_ACHARYA
+
+</text>
+
+
+</svg>
