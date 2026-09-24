@@ -1,0 +1,481 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#08060d"/>
+    <stop offset="50%" stop-color="#12091d"/>
+    <stop offset="100%" stop-color="#06080e"/>
+  </linearGradient>
+
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#7c3aed"/>
+    <stop offset="50%" stop-color="#c084fc"/>
+    <stop offset="100%" stop-color="#38bdf8"/>
+  </linearGradient>
+
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40"
+          fill="none"
+          stroke="#ffffff"
+          stroke-opacity=".035"/>
+  </pattern>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+</defs>
+
+
+<!-- ===================================================== -->
+<!-- BACKGROUND -->
+<!-- ===================================================== -->
+
+<rect width="1200" height="720" rx="26" fill="url(#bg)"/>
+<rect width="1200" height="720" rx="26" fill="url(#grid)"/>
+
+
+<!-- ambient lights -->
+
+<circle cx="1100" cy="100" r="100"
+        fill="#7c3aed"
+        opacity=".06"/>
+
+<circle cx="100" cy="650" r="100"
+        fill="#38bdf8"
+        opacity=".04"/>
+
+
+<!-- ===================================================== -->
+<!-- HEADER -->
+<!-- ===================================================== -->
+
+<text x="55" y="55"
+      fill="#8b5cf6"
+      font-family="monospace"
+      font-size="11">
+  $ ./stack --visualize
+</text>
+
+<text x="55" y="95"
+      fill="#ffffff"
+      font-family="sans-serif"
+      font-size="34"
+      font-weight="700">
+  TECH STACK
+</text>
+
+<text x="55" y="122"
+      fill="#716879"
+      font-family="monospace"
+      font-size="11">
+  no lists. just things I build with.
+</text>
+
+<rect x="55" y="142"
+      width="1090"
+      height="2"
+      fill="url(#accent)"
+      opacity=".7"/>
+
+
+<!-- ===================================================== -->
+<!-- FRONTEND -->
+<!-- ===================================================== -->
+
+<rect x="55" y="170"
+      width="350"
+      height="235"
+      rx="22"
+      fill="#0d0916"
+      stroke="#8b5cf6"
+      stroke-opacity=".4"/>
+
+<text x="82" y="207"
+      fill="#c084fc"
+      font-family="monospace"
+      font-size="11">
+  01 / FRONTEND
+</text>
+
+<!-- React -->
+<image x="85" y="230"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/react/61DAFB"/>
+
+<!-- Next -->
+<image x="155" y="230"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/nextdotjs/FFFFFF"/>
+
+<!-- HTML -->
+<image x="225" y="230"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/html5/E34F26"/>
+
+<!-- CSS -->
+<image x="295" y="230"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/css3/1572B6"/>
+
+<!-- Tailwind -->
+<image x="120" y="305"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/tailwindcss/06B6D4"/>
+
+<!-- Vite -->
+<image x="190" y="305"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/vite/646CFF"/>
+
+<!-- React Native -->
+<image x="260" y="305"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/react/61DAFB"/>
+
+
+<!-- ===================================================== -->
+<!-- BACKEND -->
+<!-- ===================================================== -->
+
+<rect x="425" y="170"
+      width="350"
+      height="235"
+      rx="22"
+      fill="#090e14"
+      stroke="#38bdf8"
+      stroke-opacity=".35"/>
+
+<text x="452" y="207"
+      fill="#38bdf8"
+      font-family="monospace"
+      font-size="11">
+  02 / BACKEND
+</text>
+
+<!-- Node -->
+<image x="460" y="230"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/nodedotjs/339933"/>
+
+<!-- Express -->
+<image x="530" y="230"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/express/FFFFFF"/>
+
+<!-- Nest -->
+<image x="600" y="230"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/nestjs/E0234E"/>
+
+<!-- Java -->
+<image x="670" y="230"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/openjdk/FFFFFF"/>
+
+<!-- REST -->
+<image x="495" y="305"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/postman/FF6C37"/>
+
+<!-- GraphQL -->
+<image x="565" y="305"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/graphql/E10098"/>
+
+<!-- TypeScript -->
+<image x="635" y="305"
+       width="48"
+       height="48"
+       href="https://cdn.simpleicons.org/typescript/3178C6"/>
+
+
+<!-- ===================================================== -->
+<!-- DATABASES -->
+<!-- ===================================================== -->
+
+<rect x="795" y="170"
+      width="350"
+      height="235"
+      rx="22"
+      fill="#0d0a15"
+      stroke="#a855f7"
+      stroke-opacity=".35"/>
+
+<text x="822" y="207"
+      fill="#a855f7"
+      font-family="monospace"
+      font-size="11">
+  03 / DATABASES
+</text>
+
+<!-- PostgreSQL -->
+<image x="830" y="230"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/postgresql/4169E1"/>
+
+<!-- Mongo -->
+<image x="905" y="230"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/mongodb/47A248"/>
+
+<!-- Prisma -->
+<image x="980" y="230"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/prisma/FFFFFF"/>
+
+<!-- Redis -->
+<image x="865" y="310"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/redis/DC382D"/>
+
+<!-- Database icon -->
+<text x="950"
+      y="352"
+      font-family="sans-serif"
+      font-size="42">
+  🗃️
+</text>
+
+
+<!-- ===================================================== -->
+<!-- AI -->
+<!-- ===================================================== -->
+
+<rect x="55" y="430"
+      width="350"
+      height="235"
+      rx="22"
+      fill="#0d0916"
+      stroke="#c084fc"
+      stroke-opacity=".35"/>
+
+<text x="82" y="467"
+      fill="#c084fc"
+      font-family="monospace"
+      font-size="11">
+  04 / AI
+</text>
+
+<!-- Python -->
+<image x="90" y="490"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/python/3776AB"/>
+
+<!-- OpenAI -->
+<image x="165" y="490"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/openai/FFFFFF"/>
+
+<!-- Hugging Face -->
+<image x="240" y="490"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/huggingface/FFD21E"/>
+
+<!-- RAG symbolic -->
+<text x="110"
+      y="590"
+      font-family="sans-serif"
+      font-size="42">
+  🧠
+</text>
+
+<text x="180"
+      y="590"
+      font-family="sans-serif"
+      font-size="42">
+  🔗
+</text>
+
+<text x="250"
+      y="590"
+      font-family="sans-serif"
+      font-size="42">
+  🤖
+</text>
+
+
+<!-- ===================================================== -->
+<!-- OTHER TOOLS -->
+<!-- ===================================================== -->
+
+<rect x="425" y="430"
+      width="350"
+      height="235"
+      rx="22"
+      fill="#090e14"
+      stroke="#38bdf8"
+      stroke-opacity=".3"/>
+
+<text x="452" y="467"
+      fill="#38bdf8"
+      font-family="monospace"
+      font-size="11">
+  05 / OTHER TOOLS
+</text>
+
+<!-- Git -->
+<image x="460" y="490"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/git/F05032"/>
+
+<!-- GitHub -->
+<image x="535" y="490"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/github/FFFFFF"/>
+
+<!-- Docker -->
+<image x="610" y="490"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/docker/2496ED"/>
+
+<!-- Kubernetes -->
+<image x="685" y="490"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/kubernetes/326CE5"/>
+
+<!-- AWS -->
+<image x="500" y="570"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/amazonaws/FF9900"/>
+
+<!-- Linux -->
+<image x="575" y="570"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/linux/FFFFFF"/>
+
+<!-- Phaser -->
+<image x="650" y="570"
+       width="52"
+       height="52"
+       href="https://cdn.simpleicons.org/phaser/FFFFFF"/>
+
+
+<!-- ===================================================== -->
+<!-- CORE CS -->
+<!-- ===================================================== -->
+
+<rect x="795" y="430"
+      width="350"
+      height="235"
+      rx="22"
+      fill="#0d0a15"
+      stroke="#8b5cf6"
+      stroke-opacity=".38"/>
+
+<text x="822" y="467"
+      fill="#a855f7"
+      font-family="monospace"
+      font-size="11">
+  06 / CORE CS
+</text>
+
+<!-- custom visual nodes -->
+
+<circle cx="865" cy="525" r="30"
+        fill="#8b5cf6"
+        fill-opacity=".12"
+        stroke="#8b5cf6"
+        stroke-opacity=".5"/>
+
+<text x="865" y="537"
+      text-anchor="middle"
+      font-family="sans-serif"
+      font-size="28">
+  🧩
+</text>
+
+<circle cx="950" cy="525" r="30"
+        fill="#38bdf8"
+        fill-opacity=".1"
+        stroke="#38bdf8"
+        stroke-opacity=".5"/>
+
+<text x="950" y="537"
+      text-anchor="middle"
+      font-family="sans-serif"
+      font-size="28">
+  🏛️
+</text>
+
+<circle cx="1035" cy="525" r="30"
+        fill="#c084fc"
+        fill-opacity=".1"
+        stroke="#c084fc"
+        stroke-opacity=".5"/>
+
+<text x="1035" y="537"
+      text-anchor="middle"
+      font-family="sans-serif"
+      font-size="28">
+  ⚙️
+</text>
+
+<!-- connecting lines -->
+
+<line x1="895" y1="525"
+      x2="920" y2="525"
+      stroke="#8b5cf6"
+      stroke-opacity=".5"/>
+
+<line x1="980" y1="525"
+      x2="1005" y2="525"
+      stroke="#c084fc"
+      stroke-opacity=".5"/>
+
+<text x="865" y="590"
+      text-anchor="middle"
+      fill="#71717a"
+      font-family="monospace"
+      font-size="9">
+  DSA
+</text>
+
+<text x="950" y="590"
+      text-anchor="middle"
+      fill="#71717a"
+      font-family="monospace"
+      font-size="9">
+  SYSTEMS
+</text>
+
+<text x="1035" y="590"
+      text-anchor="middle"
+      fill="#71717a"
+      font-family="monospace"
+      font-size="9">
+  DESIGN
+</text>
+
+</svg>
