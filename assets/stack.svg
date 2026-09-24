@@ -1,481 +1,1381 @@
-<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
 <defs>
-
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#08060d"/>
-    <stop offset="50%" stop-color="#12091d"/>
-    <stop offset="100%" stop-color="#06080e"/>
+    <stop stop-color="#090714"/>
+    <stop offset=".5" stop-color="#100b24"/>
+    <stop offset="1" stop-color="#070914"/>
   </linearGradient>
 
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#7c3aed"/>
-    <stop offset="50%" stop-color="#c084fc"/>
-    <stop offset="100%" stop-color="#38bdf8"/>
+  <linearGradient id="line" x1="0" x2="1">
+    <stop stop-color="#7c3aed"/>
+    <stop offset=".5" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#a855f7"/>
   </linearGradient>
-
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0H0V40"
-          fill="none"
-          stroke="#ffffff"
-          stroke-opacity=".035"/>
-  </pattern>
 
   <filter id="glow">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feGaussianBlur stdDeviation="5" result="b"/>
     <feMerge>
-      <feMergeNode in="blur"/>
+      <feMergeNode in="b"/>
       <feMergeNode in="SourceGraphic"/>
     </feMerge>
   </filter>
 
+  <style>
+    .title{
+      font:700 23px Inter,Arial,sans-serif;
+      fill:#f8fafc;
+      letter-spacing:3px
+    }
+
+    .sub{
+      font:500 11px Inter,Arial,sans-serif;
+      fill:#64748b;
+      letter-spacing:2px
+    }
+
+    .desc{
+      font:500 11px Inter,Arial,sans-serif;
+      fill:#94a3b8
+    }
+
+    .mark{
+      font:800 19px Arial,sans-serif;
+      fill:#fff;
+      text-anchor:middle;
+      dominant-baseline:middle
+    }
+
+    .smallmark{
+      font:800 14px Arial,sans-serif;
+      fill:#fff;
+      text-anchor:middle;
+      dominant-baseline:middle
+    }
+
+    .card{
+      fill:#0d0a1c;
+      stroke:#292342;
+      stroke-width:1
+    }
+  </style>
 </defs>
 
-
-<!-- ===================================================== -->
 <!-- BACKGROUND -->
-<!-- ===================================================== -->
+<rect width="1200" height="1500" rx="28" fill="url(#bg)"/>
 
-<rect width="1200" height="720" rx="26" fill="url(#bg)"/>
-<rect width="1200" height="720" rx="26" fill="url(#grid)"/>
+<path
+  d="M45 45H1155"
+  stroke="url(#line)"
+  stroke-width="2"
+  filter="url(#glow)"
+/>
 
+<text x="55" y="88" class="sub">SATYANSH / STACK.EXE</text>
 
-<!-- ambient lights -->
-
-<circle cx="1100" cy="100" r="100"
-        fill="#7c3aed"
-        opacity=".06"/>
-
-<circle cx="100" cy="650" r="100"
-        fill="#38bdf8"
-        opacity=".04"/>
-
-
-<!-- ===================================================== -->
-<!-- HEADER -->
-<!-- ===================================================== -->
-
-<text x="55" y="55"
-      fill="#8b5cf6"
-      font-family="monospace"
-      font-size="11">
-  $ ./stack --visualize
-</text>
-
-<text x="55" y="95"
-      fill="#ffffff"
-      font-family="sans-serif"
-      font-size="34"
-      font-weight="700">
+<text x="55" y="125" class="title">
   TECH STACK
 </text>
 
-<text x="55" y="122"
-      fill="#716879"
-      font-family="monospace"
-      font-size="11">
-  no lists. just things I build with.
+<text
+  x="1145"
+  y="125"
+  class="sub"
+  text-anchor="end"
+>
+  06 DOMAINS · 50+ TOOLS
 </text>
-
-<rect x="55" y="142"
-      width="1090"
-      height="2"
-      fill="url(#accent)"
-      opacity=".7"/>
 
 
 <!-- ===================================================== -->
 <!-- FRONTEND -->
 <!-- ===================================================== -->
 
-<rect x="55" y="170"
-      width="350"
-      height="235"
-      rx="22"
-      fill="#0d0916"
-      stroke="#8b5cf6"
-      stroke-opacity=".4"/>
+<g transform="translate(55 155)">
 
-<text x="82" y="207"
-      fill="#c084fc"
-      font-family="monospace"
-      font-size="11">
-  01 / FRONTEND
-</text>
+  <text class="title" x="0" y="0">
+    01 / FRONTEND
+  </text>
 
-<!-- React -->
-<image x="85" y="230"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/react/61DAFB"/>
+  <text class="sub" x="0" y="25">
+    INTERFACES · WEB · 3D · MOTION
+  </text>
 
-<!-- Next -->
-<image x="155" y="230"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/nextdotjs/FFFFFF"/>
 
-<!-- HTML -->
-<image x="225" y="230"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/html5/E34F26"/>
+  <!-- HTML -->
 
-<!-- CSS -->
-<image x="295" y="230"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/css3/1572B6"/>
+  <g transform="translate(0 48)">
+    <rect class="card" width="170" height="92" rx="14"/>
 
-<!-- Tailwind -->
-<image x="120" y="305"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/tailwindcss/06B6D4"/>
+    <rect
+      x="18"
+      y="18"
+      width="48"
+      height="48"
+      rx="9"
+      fill="#e34f26"
+    />
 
-<!-- Vite -->
-<image x="190" y="305"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/vite/646CFF"/>
+    <text class="mark" x="42" y="42">5</text>
 
-<!-- React Native -->
-<image x="260" y="305"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/react/61DAFB"/>
+    <text class="desc" x="82" y="40">
+      markup
+    </text>
+
+    <text class="desc" x="82" y="57">
+      semantic web
+    </text>
+  </g>
+
+
+  <!-- CSS -->
+
+  <g transform="translate(180 48)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <rect
+      x="18"
+      y="18"
+      width="48"
+      height="48"
+      rx="9"
+      fill="#1572b6"
+    />
+
+    <text class="mark" x="42" y="42">3</text>
+
+    <text class="desc" x="82" y="40">
+      styling
+    </text>
+
+    <text class="desc" x="82" y="57">
+      responsive UI
+    </text>
+  </g>
+
+
+  <!-- JAVASCRIPT -->
+
+  <g transform="translate(360 48)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <rect
+      x="18"
+      y="18"
+      width="48"
+      height="48"
+      rx="9"
+      fill="#f7df1e"
+    />
+
+    <text
+      x="42"
+      y="42"
+      class="smallmark"
+      fill="#111827"
+    >
+      JS
+    </text>
+
+    <text class="desc" x="82" y="40">
+      runtime
+    </text>
+
+    <text class="desc" x="82" y="57">
+      interaction
+    </text>
+  </g>
+
+
+  <!-- TYPESCRIPT -->
+
+  <g transform="translate(540 48)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <rect
+      x="18"
+      y="18"
+      width="48"
+      height="48"
+      rx="9"
+      fill="#3178c6"
+    />
+
+    <text class="smallmark" x="42" y="42">
+      TS
+    </text>
+
+    <text class="desc" x="82" y="40">
+      typed JS
+    </text>
+
+    <text class="desc" x="82" y="57">
+      scale
+    </text>
+  </g>
+
+
+  <!-- REACT -->
+
+  <g transform="translate(720 48)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="none"
+      stroke="#61dafb"
+      stroke-width="4"
+    />
+
+    <ellipse
+      cx="42"
+      cy="42"
+      rx="25"
+      ry="10"
+      fill="none"
+      stroke="#61dafb"
+      stroke-width="3"
+      transform="rotate(60 42 42)"
+    />
+
+    <ellipse
+      cx="42"
+      cy="42"
+      rx="25"
+      ry="10"
+      fill="none"
+      stroke="#61dafb"
+      stroke-width="3"
+      transform="rotate(-60 42 42)"
+    />
+
+    <circle
+      cx="42"
+      cy="42"
+      r="4"
+      fill="#61dafb"
+    />
+
+    <text class="desc" x="82" y="40">
+      component UI
+    </text>
+
+    <text class="desc" x="82" y="57">
+      reactive apps
+    </text>
+  </g>
+
+
+  <!-- NEXT -->
+
+  <g transform="translate(0 152)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#050505"
+      stroke="#fff"
+      stroke-width="2"
+    />
+
+    <text class="mark" x="42" y="42">N</text>
+
+    <text class="desc" x="82" y="40">
+      full-stack
+    </text>
+
+    <text class="desc" x="82" y="57">
+      React framework
+    </text>
+  </g>
+
+
+  <!-- TAILWIND -->
+
+  <g transform="translate(180 152)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <rect
+      x="18"
+      y="18"
+      width="48"
+      height="48"
+      rx="9"
+      fill="#38bdf8"
+    />
+
+    <path
+      d="M23 48h38M27 38h30M31 28h22"
+      stroke="#fff"
+      stroke-width="5"
+    />
+
+    <text class="desc" x="82" y="40">
+      utility CSS
+    </text>
+
+    <text class="desc" x="82" y="57">
+      design systems
+    </text>
+  </g>
+
+
+  <!-- VITE -->
+
+  <g transform="translate(360 152)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <polygon
+      points="42,17 63,42 42,67 21,42"
+      fill="#646cff"
+    />
+
+    <path
+      d="M42 22l-7 18 7 5 7-5zM35 45l-6 4 13 9 13-9-6-4-7 5z"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      build tooling
+    </text>
+
+    <text class="desc" x="82" y="57">
+      fast dev
+    </text>
+  </g>
+
+
+  <!-- THREE.JS -->
+
+  <g transform="translate(540 152)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#111"
+    />
+
+    <path
+      d="M24 50c13-23 28-25 36-14-11-2-19 2-25 14z"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      3D web
+    </text>
+
+    <text class="desc" x="82" y="57">
+      WebGL scenes
+    </text>
+  </g>
+
+
+  <!-- PHASER -->
+
+  <g transform="translate(720 152)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#313c5a"
+    />
+
+    <path
+      d="M27 53l9-24 11 10 10-7-5 25-12-7z"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      game UI
+    </text>
+
+    <text class="desc" x="82" y="57">
+      2D engine
+    </text>
+  </g>
+
+
+  <!-- REACT NATIVE -->
+
+  <g transform="translate(0 256)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <rect
+      x="18"
+      y="18"
+      width="48"
+      height="48"
+      rx="9"
+      fill="#61dafb"
+    />
+
+    <text
+      x="42"
+      y="42"
+      class="smallmark"
+      fill="#111827"
+    >
+      RN
+    </text>
+
+    <text class="desc" x="82" y="40">
+      mobile UI
+    </text>
+
+    <text class="desc" x="82" y="57">
+      native apps
+    </text>
+  </g>
+
+
+  <!-- TILED -->
+
+  <g transform="translate(180 256)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <path
+      d="M22 32l20-13 20 13-20 13z
+         M22 42l20 13 20-13
+         M22 52l20 13 20-13"
+      fill="none"
+      stroke="#e2e8f0"
+      stroke-width="3"
+    />
+
+    <text class="desc" x="82" y="40">
+      game maps
+    </text>
+
+    <text class="desc" x="82" y="57">
+      level design
+    </text>
+  </g>
+
+
+  <!-- FRAMER MOTION -->
+
+  <g transform="translate(360 256)">
+    <rect class="card" width="170" height="92" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#0ea5e9"
+    />
+
+    <path
+      d="M27 48c8-12 19-19 31-19-7 6-10 12-11 21-7-2-13-2-20-2z"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      motion
+    </text>
+
+    <text class="desc" x="82" y="57">
+      micro-interactions
+    </text>
+  </g>
+
+</g>
 
 
 <!-- ===================================================== -->
 <!-- BACKEND -->
 <!-- ===================================================== -->
 
-<rect x="425" y="170"
-      width="350"
-      height="235"
-      rx="22"
-      fill="#090e14"
-      stroke="#38bdf8"
-      stroke-opacity=".35"/>
+<g transform="translate(55 540)">
 
-<text x="452" y="207"
-      fill="#38bdf8"
-      font-family="monospace"
-      font-size="11">
-  02 / BACKEND
-</text>
+  <text class="title" x="0" y="0">
+    02 / BACKEND
+  </text>
 
-<!-- Node -->
-<image x="460" y="230"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/nodedotjs/339933"/>
+  <text class="sub" x="0" y="24">
+    SERVERS · APIs · SERVICES
+  </text>
 
-<!-- Express -->
-<image x="530" y="230"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/express/FFFFFF"/>
 
-<!-- Nest -->
-<image x="600" y="230"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/nestjs/E0234E"/>
+  <!-- NODE -->
 
-<!-- Java -->
-<image x="670" y="230"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/openjdk/FFFFFF"/>
+  <g transform="translate(0 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
 
-<!-- REST -->
-<image x="495" y="305"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/postman/FF6C37"/>
+    <polygon
+      points="42,18 64,31 64,55 42,68 20,55 20,31"
+      fill="#68a063"
+    />
 
-<!-- GraphQL -->
-<image x="565" y="305"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/graphql/E10098"/>
+    <text class="smallmark" x="42" y="43">
+      JS
+    </text>
 
-<!-- TypeScript -->
-<image x="635" y="305"
-       width="48"
-       height="48"
-       href="https://cdn.simpleicons.org/typescript/3178C6"/>
+    <text class="desc" x="82" y="40">
+      runtime
+    </text>
+
+    <text class="desc" x="82" y="57">
+      server apps
+    </text>
+  </g>
+
+
+  <!-- EXPRESS -->
+
+  <g transform="translate(180 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <path
+      d="M25 53c10-18 23-25 34-21-6 5-11 12-13 21z"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      web APIs
+    </text>
+
+    <text class="desc" x="82" y="57">
+      middleware
+    </text>
+  </g>
+
+
+  <!-- NEST -->
+
+  <g transform="translate(360 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <polygon
+      points="42,17 64,29 58,58 42,67 26,58 20,29"
+      fill="#e0234e"
+    />
+
+    <text class="mark" x="42" y="43">
+      N
+    </text>
+
+    <text class="desc" x="82" y="40">
+      services
+    </text>
+
+    <text class="desc" x="82" y="57">
+      architecture
+    </text>
+  </g>
+
+
+  <!-- GRAPHQL -->
+
+  <g transform="translate(540 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <path
+      d="M42 18l22 24-22 24-22-24z"
+      fill="#e535ab"
+    />
+
+    <circle
+      cx="42"
+      cy="42"
+      r="7"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      queries
+    </text>
+
+    <text class="desc" x="82" y="57">
+      API layer
+    </text>
+  </g>
+
+
+  <!-- PYTHON -->
+
+  <g transform="translate(720 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <rect
+      x="18"
+      y="18"
+      width="48"
+      height="48"
+      rx="9"
+      fill="#3776ab"
+    />
+
+    <text class="smallmark" x="42" y="42">
+      PY
+    </text>
+
+    <text class="desc" x="82" y="40">
+      automation
+    </text>
+
+    <text class="desc" x="82" y="57">
+      AI backend
+    </text>
+  </g>
+
+</g>
 
 
 <!-- ===================================================== -->
 <!-- DATABASES -->
 <!-- ===================================================== -->
 
-<rect x="795" y="170"
-      width="350"
-      height="235"
-      rx="22"
-      fill="#0d0a15"
-      stroke="#a855f7"
-      stroke-opacity=".35"/>
+<g transform="translate(55 700)">
 
-<text x="822" y="207"
-      fill="#a855f7"
-      font-family="monospace"
-      font-size="11">
-  03 / DATABASES
-</text>
+  <text class="title" x="0" y="0">
+    03 / DATABASES
+  </text>
 
-<!-- PostgreSQL -->
-<image x="830" y="230"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/postgresql/4169E1"/>
+  <text class="sub" x="0" y="24">
+    DATA · STORAGE · CACHING
+  </text>
 
-<!-- Mongo -->
-<image x="905" y="230"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/mongodb/47A248"/>
 
-<!-- Prisma -->
-<image x="980" y="230"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/prisma/FFFFFF"/>
+  <!-- POSTGRES -->
 
-<!-- Redis -->
-<image x="865" y="310"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/redis/DC382D"/>
+  <g transform="translate(0 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
 
-<!-- Database icon -->
-<text x="950"
-      y="352"
-      font-family="sans-serif"
-      font-size="42">
-  🗃️
-</text>
+    <ellipse
+      cx="42"
+      cy="29"
+      rx="21"
+      ry="9"
+      fill="#336791"
+    />
+
+    <path
+      d="M21 29v25c0 5 42 5 42 0V29"
+      fill="#336791"
+    />
+
+    <ellipse
+      cx="42"
+      cy="54"
+      rx="21"
+      ry="9"
+      fill="#336791"
+    />
+
+    <text class="desc" x="82" y="40">
+      relational
+    </text>
+
+    <text class="desc" x="82" y="57">
+      SQL
+    </text>
+  </g>
+
+
+  <!-- MONGO -->
+
+  <g transform="translate(180 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#47a248"
+    />
+
+    <path
+      d="M29 50c10-18 20-22 29-21-5 9-13 18-29 21z"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      documents
+    </text>
+
+    <text class="desc" x="82" y="57">
+      NoSQL
+    </text>
+  </g>
+
+
+  <!-- REDIS -->
+
+  <g transform="translate(360 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <rect
+      x="20"
+      y="21"
+      width="44"
+      height="8"
+      rx="4"
+      fill="#dc382d"
+    />
+
+    <rect
+      x="20"
+      y="37"
+      width="44"
+      height="8"
+      rx="4"
+      fill="#dc382d"
+    />
+
+    <rect
+      x="20"
+      y="53"
+      width="44"
+      height="8"
+      rx="4"
+      fill="#dc382d"
+    />
+
+    <text class="desc" x="82" y="40">
+      cache
+    </text>
+
+    <text class="desc" x="82" y="57">
+      fast data
+    </text>
+  </g>
+
+
+  <!-- PRISMA -->
+
+  <g transform="translate(540 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <polygon
+      points="42,18 65,60 19,60"
+      fill="#2d3748"
+    />
+
+    <text class="mark" x="42" y="50">
+      P
+    </text>
+
+    <text class="desc" x="82" y="40">
+      ORM
+    </text>
+
+    <text class="desc" x="82" y="57">
+      type-safe data
+    </text>
+  </g>
+
+
+  <!-- MONGOOSE -->
+
+  <g transform="translate(720 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#800"
+    />
+
+    <text class="smallmark" x="42" y="42">
+      ODM
+    </text>
+
+    <text class="desc" x="82" y="40">
+      Mongo models
+    </text>
+
+    <text class="desc" x="82" y="57">
+      schemas
+    </text>
+  </g>
+
+</g>
 
 
 <!-- ===================================================== -->
 <!-- AI -->
 <!-- ===================================================== -->
 
-<rect x="55" y="430"
-      width="350"
-      height="235"
-      rx="22"
-      fill="#0d0916"
-      stroke="#c084fc"
-      stroke-opacity=".35"/>
+<g transform="translate(55 860)">
 
-<text x="82" y="467"
-      fill="#c084fc"
-      font-family="monospace"
-      font-size="11">
-  04 / AI
-</text>
+  <text class="title" x="0" y="0">
+    04 / AI
+  </text>
 
-<!-- Python -->
-<image x="90" y="490"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/python/3776AB"/>
+  <text class="sub" x="0" y="24">
+    LLMs · RETRIEVAL · AGENTS
+  </text>
 
-<!-- OpenAI -->
-<image x="165" y="490"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/openai/FFFFFF"/>
 
-<!-- Hugging Face -->
-<image x="240" y="490"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/huggingface/FFD21E"/>
+  <!-- LLM -->
 
-<!-- RAG symbolic -->
-<text x="110"
-      y="590"
-      font-family="sans-serif"
-      font-size="42">
-  🧠
-</text>
+  <g transform="translate(0 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
 
-<text x="180"
-      y="590"
-      font-family="sans-serif"
-      font-size="42">
-  🔗
-</text>
+    <path
+      d="M29 35c0-13 19-20 27-8
+         12-2 18 13 9 20
+         7 10-7 19-17 12
+         -10 8-23-1-19-11
+         -10-5-8-13 0-13z"
+      fill="none"
+      stroke="#fff"
+      stroke-width="4"
+    />
 
-<text x="250"
-      y="590"
-      font-family="sans-serif"
-      font-size="42">
-  🤖
-</text>
+    <text class="desc" x="82" y="40">
+      LLMs
+    </text>
+
+    <text class="desc" x="82" y="57">
+      reasoning
+    </text>
+  </g>
+
+
+  <!-- HUGGING FACE -->
+
+  <g transform="translate(180 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#ffcc4d"
+    />
+
+    <circle cx="34" cy="39" r="3"/>
+
+    <circle cx="50" cy="39" r="3"/>
+
+    <path
+      d="M33 50q9 7 18 0"
+      fill="none"
+      stroke="#111"
+      stroke-width="3"
+    />
+
+    <text class="desc" x="82" y="40">
+      models
+    </text>
+
+    <text class="desc" x="82" y="57">
+      ML tooling
+    </text>
+  </g>
+
+
+  <!-- RAG -->
+
+  <g transform="translate(360 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="25"
+      cy="42"
+      r="6"
+      fill="#a855f7"
+    />
+
+    <circle
+      cx="59"
+      cy="27"
+      r="6"
+      fill="#22d3ee"
+    />
+
+    <circle
+      cx="59"
+      cy="57"
+      r="6"
+      fill="#22d3ee"
+    />
+
+    <path
+      d="M31 40l22-11M31 44l22 11"
+      stroke="#fff"
+      stroke-width="2"
+    />
+
+    <text class="desc" x="82" y="40">
+      RAG
+    </text>
+
+    <text class="desc" x="82" y="57">
+      retrieval
+    </text>
+  </g>
+
+
+  <!-- AGENTIC -->
+
+  <g transform="translate(540 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="30"
+      cy="42"
+      r="6"
+      fill="#22d3ee"
+    />
+
+    <circle
+      cx="54"
+      cy="25"
+      r="6"
+      fill="#a855f7"
+    />
+
+    <circle
+      cx="54"
+      cy="59"
+      r="6"
+      fill="#a855f7"
+    />
+
+    <path
+      d="M36 39l12-10M36 45l12 10M54 31v22"
+      stroke="#fff"
+      stroke-width="2"
+    />
+
+    <text class="desc" x="82" y="40">
+      agents
+    </text>
+
+    <text class="desc" x="82" y="57">
+      tool use
+    </text>
+  </g>
+
+
+  <!-- AI APIs -->
+
+  <g transform="translate(720 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <rect
+      x="20"
+      y="20"
+      width="44"
+      height="44"
+      rx="12"
+      fill="#ff9d00"
+    />
+
+    <path
+      d="M29 49c7-14 17-19 27-14
+         -4 7-11 13-27 14z"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      AI APIs
+    </text>
+
+    <text class="desc" x="82" y="57">
+      integration
+    </text>
+  </g>
+
+</g>
 
 
 <!-- ===================================================== -->
-<!-- OTHER TOOLS -->
+<!-- TOOLS -->
 <!-- ===================================================== -->
 
-<rect x="425" y="430"
-      width="350"
-      height="235"
-      rx="22"
-      fill="#090e14"
-      stroke="#38bdf8"
-      stroke-opacity=".3"/>
+<g transform="translate(55 1020)">
 
-<text x="452" y="467"
-      fill="#38bdf8"
-      font-family="monospace"
-      font-size="11">
-  05 / OTHER TOOLS
-</text>
+  <text class="title" x="0" y="0">
+    05 / TOOLS &amp; CLOUD
+  </text>
 
-<!-- Git -->
-<image x="460" y="490"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/git/F05032"/>
+  <text class="sub" x="0" y="24">
+    DEV · INFRA · DELIVERY
+  </text>
 
-<!-- GitHub -->
-<image x="535" y="490"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/github/FFFFFF"/>
 
-<!-- Docker -->
-<image x="610" y="490"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/docker/2496ED"/>
+  <!-- GIT -->
 
-<!-- Kubernetes -->
-<image x="685" y="490"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/kubernetes/326CE5"/>
+  <g transform="translate(0 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
 
-<!-- AWS -->
-<image x="500" y="570"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/amazonaws/FF9900"/>
+    <path
+      d="M42 18l24 14-24 14-24-14z
+         M42 46v22
+         M30 39l12 7 12-7"
+      fill="none"
+      stroke="#f05032"
+      stroke-width="5"
+    />
 
-<!-- Linux -->
-<image x="575" y="570"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/linux/FFFFFF"/>
+    <text class="desc" x="82" y="40">
+      versioning
+    </text>
 
-<!-- Phaser -->
-<image x="650" y="570"
-       width="52"
-       height="52"
-       href="https://cdn.simpleicons.org/phaser/FFFFFF"/>
+    <text class="desc" x="82" y="57">
+      source control
+    </text>
+  </g>
+
+
+  <!-- GITHUB -->
+
+  <g transform="translate(180 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#f8fafc"
+    />
+
+    <path
+      d="M26 51c5-17 13-25 25-27
+         6 4 9 11 10 18
+         -10-2-20 1-28 9z"
+      fill="#111827"
+    />
+
+    <text class="desc" x="82" y="40">
+      code hosting
+    </text>
+
+    <text class="desc" x="82" y="57">
+      collaboration
+    </text>
+  </g>
+
+
+  <!-- DOCKER -->
+
+  <g transform="translate(360 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#2496ed"
+    />
+
+    <path
+      d="M24 48h36l-6 12H30z
+         M30 39h24v8H30z"
+      fill="#fff"
+    />
+
+    <text class="desc" x="82" y="40">
+      containers
+    </text>
+
+    <text class="desc" x="82" y="57">
+      deployment
+    </text>
+  </g>
+
+
+  <!-- KUBERNETES -->
+
+  <g transform="translate(540 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#326ce5"
+    />
+
+    <circle
+      cx="42"
+      cy="42"
+      r="8"
+      fill="#fff"
+    />
+
+    <path
+      d="M42 18v10
+         M42 56v10
+         M18 42h10
+         M56 42h10"
+      stroke="#fff"
+      stroke-width="4"
+    />
+
+    <text class="desc" x="82" y="40">
+      orchestration
+    </text>
+
+    <text class="desc" x="82" y="57">
+      cloud-native
+    </text>
+  </g>
+
+
+  <!-- AWS -->
+
+  <g transform="translate(720 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <rect
+      x="19"
+      y="19"
+      width="46"
+      height="46"
+      rx="10"
+      fill="#ff9900"
+    />
+
+    <path
+      d="M27 48q15 9 31 0"
+      fill="none"
+      stroke="#111"
+      stroke-width="4"
+    />
+
+    <text class="desc" x="82" y="40">
+      cloud
+    </text>
+
+    <text class="desc" x="82" y="57">
+      infrastructure
+    </text>
+  </g>
+
+</g>
 
 
 <!-- ===================================================== -->
 <!-- CORE CS -->
 <!-- ===================================================== -->
 
-<rect x="795" y="430"
-      width="350"
-      height="235"
-      rx="22"
-      fill="#0d0a15"
-      stroke="#8b5cf6"
-      stroke-opacity=".38"/>
+<g transform="translate(55 1180)">
 
-<text x="822" y="467"
-      fill="#a855f7"
-      font-family="monospace"
-      font-size="11">
-  06 / CORE CS
+  <text class="title" x="0" y="0">
+    06 / CORE CS
+  </text>
+
+  <text class="sub" x="0" y="24">
+    FOUNDATIONS · ENGINEERING
+  </text>
+
+
+  <!-- C++ -->
+
+  <g transform="translate(0 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <rect
+      x="18"
+      y="18"
+      width="48"
+      height="48"
+      rx="9"
+      fill="#00599c"
+    />
+
+    <text class="smallmark" x="42" y="42">
+      C++
+    </text>
+
+    <text class="desc" x="82" y="40">
+      systems
+    </text>
+
+    <text class="desc" x="82" y="57">
+      performance
+    </text>
+  </g>
+
+
+  <!-- DSA -->
+
+  <g transform="translate(180 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="24"
+      fill="#7c3aed"
+    />
+
+    <circle cx="31" cy="42" r="5" fill="#fff"/>
+    <circle cx="53" cy="27" r="5" fill="#fff"/>
+    <circle cx="53" cy="57" r="5" fill="#fff"/>
+
+    <path
+      d="M35 39l14-10M35 45l14 10"
+      stroke="#fff"
+      stroke-width="3"
+    />
+
+    <text class="desc" x="82" y="40">
+      algorithms
+    </text>
+
+    <text class="desc" x="82" y="57">
+      problem solving
+    </text>
+  </g>
+
+
+  <!-- OOP -->
+
+  <g transform="translate(360 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <circle
+      cx="42"
+      cy="42"
+      r="20"
+      fill="none"
+      stroke="#22d3ee"
+      stroke-width="4"
+    />
+
+    <circle
+      cx="29"
+      cy="42"
+      r="6"
+      fill="#22d3ee"
+    />
+
+    <circle
+      cx="55"
+      cy="42"
+      r="6"
+      fill="#22d3ee"
+    />
+
+    <text class="desc" x="82" y="40">
+      OOP
+    </text>
+
+    <text class="desc" x="82" y="57">
+      abstraction
+    </text>
+  </g>
+
+
+  <!-- DBMS -->
+
+  <g transform="translate(540 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <path
+      d="M22 31h40v30H22z"
+      fill="none"
+      stroke="#38bdf8"
+      stroke-width="4"
+    />
+
+    <path
+      d="M29 39h26
+         M29 48h18
+         M29 57h23"
+      stroke="#38bdf8"
+      stroke-width="3"
+    />
+
+    <text class="desc" x="82" y="40">
+      DBMS
+    </text>
+
+    <text class="desc" x="82" y="57">
+      data systems
+    </text>
+  </g>
+
+
+  <!-- OS / CN -->
+
+  <g transform="translate(720 45)">
+    <rect class="card" width="170" height="88" rx="14"/>
+
+    <rect
+      x="19"
+      y="19"
+      width="46"
+      height="46"
+      rx="10"
+      fill="#0ea5e9"
+    />
+
+    <rect
+      x="30"
+      y="30"
+      width="24"
+      height="24"
+      fill="none"
+      stroke="#fff"
+      stroke-width="4"
+    />
+
+    <path
+      d="M30 25v-6
+         M42 25v-6
+         M54 25v-6
+         M30 61v6
+         M42 61v6
+         M54 61v6
+         M25 30h-6
+         M25 42h-6
+         M25 54h-6
+         M59 30h6
+         M59 42h6
+         M59 54h6"
+      stroke="#fff"
+      stroke-width="3"
+    />
+
+    <text class="desc" x="82" y="40">
+      OS / CN
+    </text>
+
+    <text class="desc" x="82" y="57">
+      architecture
+    </text>
+  </g>
+
+</g>
+
+
+<!-- FOOTER -->
+
+<path
+  d="M55 1415H1145"
+  stroke="url(#line)"
+  stroke-width="1"
+/>
+
+<text
+  x="55"
+  y="1445"
+  class="sub"
+>
+  BUILDING ACROSS THE STACK — FROM LOW-LEVEL LOGIC TO 3D EXPERIENCES
 </text>
 
-<!-- custom visual nodes -->
-
-<circle cx="865" cy="525" r="30"
-        fill="#8b5cf6"
-        fill-opacity=".12"
-        stroke="#8b5cf6"
-        stroke-opacity=".5"/>
-
-<text x="865" y="537"
-      text-anchor="middle"
-      font-family="sans-serif"
-      font-size="28">
-  🧩
-</text>
-
-<circle cx="950" cy="525" r="30"
-        fill="#38bdf8"
-        fill-opacity=".1"
-        stroke="#38bdf8"
-        stroke-opacity=".5"/>
-
-<text x="950" y="537"
-      text-anchor="middle"
-      font-family="sans-serif"
-      font-size="28">
-  🏛️
-</text>
-
-<circle cx="1035" cy="525" r="30"
-        fill="#c084fc"
-        fill-opacity=".1"
-        stroke="#c084fc"
-        stroke-opacity=".5"/>
-
-<text x="1035" y="537"
-      text-anchor="middle"
-      font-family="sans-serif"
-      font-size="28">
-  ⚙️
-</text>
-
-<!-- connecting lines -->
-
-<line x1="895" y1="525"
-      x2="920" y2="525"
-      stroke="#8b5cf6"
-      stroke-opacity=".5"/>
-
-<line x1="980" y1="525"
-      x2="1005" y2="525"
-      stroke="#c084fc"
-      stroke-opacity=".5"/>
-
-<text x="865" y="590"
-      text-anchor="middle"
-      fill="#71717a"
-      font-family="monospace"
-      font-size="9">
-  DSA
-</text>
-
-<text x="950" y="590"
-      text-anchor="middle"
-      fill="#71717a"
-      font-family="monospace"
-      font-size="9">
-  SYSTEMS
-</text>
-
-<text x="1035" y="590"
-      text-anchor="middle"
-      fill="#71717a"
-      font-family="monospace"
-      font-size="9">
-  DESIGN
+<text
+  x="1145"
+  y="1445"
+  class="sub"
+  text-anchor="end"
+>
+  SPADE-2006
 </text>
 
 </svg>
