@@ -38,7 +38,7 @@
 
 ---
 
-## 🧬 `whoami`
+## 🧬 `Who am I?`
 
 <div align="center">
 
@@ -54,7 +54,7 @@
 
 ---
 
-## ⚡ `tech.stack`
+## ⚡ `Tech Fields`
 
 <div align="center">
 
@@ -70,7 +70,7 @@
 
 ---
 
-## 🧩 `computer.science`
+## 🧩 `Computer Science`
 
 <div align="center">
 
@@ -86,7 +86,7 @@
 
 ---
 
-## 🚀 `things.i.build`
+## 🚀 `Things I build`
 
 <div align="center">
 
@@ -102,7 +102,7 @@
 
 ---
 
-## 🐍 `contribution.matrix`
+## 🐍 `Contribution Matrix`
 
 <div align="center">
 
@@ -118,7 +118,7 @@
 
 ---
 
-## 📊 `github.stats`
+## 📊 `Github Stats`
 
 <div align="center">
 
@@ -152,7 +152,7 @@
 
 ---
 
-## 🏆 `achievements`
+## 🏆 `Achievements`
 
 <div align="center">
 
@@ -198,7 +198,7 @@ Curated DSA Problems
 
 <br>
 
-### `competitive.programming`
+### `Competitive Programming`
 
 ```text
 DP              GRAPHS              TREES
