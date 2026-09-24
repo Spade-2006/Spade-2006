@@ -5,7 +5,7 @@
 <br><br>
 
 <a href="https://www.linkedin.com/in/satyansh-acharya/">
-  <img src="https://cdn.simpleicons.org/linkedin/8b5cf6" width="30" alt="LinkedIn"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30" alt="LinkedIn"/>
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="mailto:acharyasatyansh@gmail.com">
@@ -32,7 +32,7 @@
 
 ---
 
-## 🧬 `Who am I?`
+## 🧬 `Who Am I?`
 
 <div align="center">
 <img src="./assets/whoami.svg" width="100%" alt="Who Am I"/>
@@ -62,7 +62,7 @@
 
 ---
 
-## 🚀 `Things I build`
+## 🚀 `Things I Build`
 
 <div align="center">
 <img src="./assets/projects.svg" width="100%" alt="Things I Build"/>
@@ -72,23 +72,27 @@
 
 ---
 
-## 🐍 `Contribution Matrix`
+## 📊 `Contribution Matrix`
 
 <div align="center">
-
 <img src="./assets/contribution.svg" width="100%" alt="GitHub Contribution Matrix"/>
-
-<br><br>
-
-<img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake"/>
-
 </div>
 
 <br>
 
 ---
 
-## 📊 `Github Stats`
+## 🐍 `Contribution Snake`
+
+<div align="center">
+<img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake"/>
+</div>
+
+<br>
+
+---
+
+## 📈 `Github Stats`
 
 <div align="center">
 <img src="./assets/github-stats.svg" width="100%" alt="GitHub Statistics"/>
@@ -108,7 +112,7 @@
 
 ---
 
-## 📚 `currently.learning`
+## 📚 `Currently Learning`
 
 <div align="center">
 <img src="./assets/learning.svg" width="100%" alt="Currently Learning"/>
@@ -118,7 +122,7 @@
 
 ---
 
-## 🔬 `what.i.like.building`
+## 🔬 `What I Like Building`
 
 <div align="center">
 <img src="./assets/building.svg" width="100%" alt="What I Like Building"/>
@@ -128,7 +132,7 @@
 
 ---
 
-## 🧪 `build.philosophy`
+## 🧪 `Build Philosophy`
 
 <div align="center">
 <img src="./assets/philosophy.svg" width="100%" alt="Build Philosophy"/>
@@ -138,7 +142,7 @@
 
 ---
 
-## 🎨 `outside.the.code`
+## 🎨 `Outside the Code`
 
 <div align="center">
 <img src="./assets/offline.svg" width="100%" alt="Outside the Code"/>
@@ -148,7 +152,7 @@
 
 ---
 
-## 📈 `activity`
+## 📈 `Activity`
 
 <div align="center">
 <img src="./assets/activity.svg" width="100%" alt="GitHub Activity"/>
