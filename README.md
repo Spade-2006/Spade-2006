@@ -2,22 +2,22 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Satyansh Acharya"/>
 
-<br>
+<br><br>
 
 <a href="https://www.linkedin.com/in/satyansh-acharya/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-8b5cf6?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://cdn.simpleicons.org/linkedin/8b5cf6" width="30" alt="LinkedIn"/>
 </a>
-&nbsp;
+&nbsp;&nbsp;&nbsp;
 <a href="mailto:acharyasatyansh@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-c084fc?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://cdn.simpleicons.org/gmail/c084fc" width="30" alt="Email"/>
 </a>
-&nbsp;
+&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/Spade-2006">
-<img src="https://img.shields.io/badge/GitHub-Spade--2006-38bdf8?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://cdn.simpleicons.org/github/38bdf8" width="30" alt="GitHub"/>
 </a>
-&nbsp;
+&nbsp;&nbsp;&nbsp;
 <a href="https://instagram.com/__satyanshh">
-<img src="https://img.shields.io/badge/Instagram-Follow-a855f7?style=for-the-badge&logo=instagram&logoColor=white"/>
+<img src="https://cdn.simpleicons.org/instagram/a855f7" width="30" alt="Instagram"/>
 </a>
 
 </div>
@@ -38,31 +38,11 @@
 
 <div align="center">
 
-<table>
-<tr>
-
-<td width="30%" align="center" valign="middle">
-
-<img
-  src="./assets/satyansh.jpg"
-  width="260"
-  alt="Satyansh Acharya"
-/>
-
-</td>
-
-<td width="70%" align="center" valign="middle">
-
 <img
   src="./assets/whoami.svg"
   width="100%"
   alt="Who Am I"
 />
-
-</td>
-
-</tr>
-</table>
 
 </div>
 
@@ -228,319 +208,3 @@ STRINGS          SEARCH              COMPLEXITY
 ├─ patterns      ├─ binary search    ├─ Big-O
 ├─ matching      └─ optimization     ├─ tradeoffs
 └─ manipulation                      └─ analysis
-```
-
----
-
-## 🚧 `currently.learning`
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### `01` — Advanced DSA
-
-Going deeper into:
-
-- Dynamic Programming
-- Graph algorithms
-- Trees
-- Optimization
-- Complexity analysis
-
-</td>
-
-<td width="50%" valign="top">
-
-### `02` — Backend Architecture
-
-Exploring:
-
-- Scalable APIs
-- Database architecture
-- Caching
-- Authentication
-- Service design
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### `03` — System Design
-
-Currently exploring:
-
-- LLD
-- HLD
-- Distributed systems
-- Scalability
-- Reliability
-
-</td>
-
-<td width="50%" valign="top">
-
-### `04` — AI Engineering
-
-Going deeper into:
-
-- RAG
-- Agentic AI
-- LLM systems
-- Retrieval pipelines
-- AI application architecture
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### `05` — Infrastructure
-
-Learning:
-
-- Docker
-- Kubernetes
-- AWS
-- CI/CD
-- Cloud-native systems
-
-</td>
-
-<td width="50%" valign="top">
-
-### `06` — Building
-
-Current philosophy:
-
-```text
-learn
-  ↓
-build
-  ↓
-break
-  ↓
-debug
-  ↓
-understand
-  ↓
-build better
-```
-
-</td>
-
-</tr>
-</table>
-
----
-
-## 🔬 `what.i.like.building`
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### 🧠 Intelligent Systems
-
-Applications where AI actually has a purpose.
-
-Not:
-
-```text
-"add chatbot"
-```
-
-More like:
-
-```text
-data
- ↓
-reasoning
- ↓
-decision
- ↓
-useful action
-```
-
-</td>
-
-<td width="50%" valign="top">
-
-### ⚙️ Backend Systems
-
-The stuff users don't see.
-
-```text
-APIs
-Databases
-Caching
-Auth
-Architecture
-Performance
-```
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### 🎮 Experimental Projects
-
-Games, visual systems, interactive learning experiences and ideas that are slightly more ambitious than necessary.
-
-</td>
-
-<td width="50%" valign="top">
-
-### 📊 Data-Driven Products
-
-I like applications where the database actually matters.
-
-```text
-collect
-  ↓
-store
-  ↓
-process
-  ↓
-visualize
-  ↓
-decide
-```
-
-</td>
-
-</tr>
-</table>
-
----
-
-## 🧪 `build.philosophy`
-
-<div align="center">
-
-```text
-        DON'T JUST LEARN
-              │
-              ▼
-        ┌─────────────┐
-        │   BUILD IT  │
-        └──────┬──────┘
-               │
-        ┌──────▼──────┐
-        │ BREAK  IT   │
-        └──────┬──────┘
-               │
-        ┌──────▼──────┐
-        │ UNDERSTAND  │
-        └──────┬──────┘
-               │
-        ┌──────▼──────┐
-        │  REBUILD IT │
-        └──────┬──────┘
-               │
-               ▼
-        ┌─────────────┐
-        │ BUILD BETTER│
-        └─────────────┘
-```
-
-</div>
-
-<br>
-
----
-
-## 🎨 `outside.the.code`
-
-<table>
-<tr>
-
-<td align="center" width="16%">
-
-✏️  
-**Sketching**
-
-</td>
-
-<td align="center" width="16%">
-
-🗺️  
-**Travel**
-
-</td>
-
-<td align="center" width="16%">
-
-♟️  
-**Chess**
-
-</td>
-
-<td align="center" width="16%">
-
-📚  
-**Reading**
-
-</td>
-
-<td align="center" width="16%">
-
-🎧  
-**Music**
-
-</td>
-
-<td align="center" width="16%">
-
-🎙️  
-**Podcasts**
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
-Sometimes I disappear for a while and come back with another unnecessarily ambitious project.
-
----
-
-## 📈 `activity`
-
-<div align="center">
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=Spade-2006&bg_color=00000000&color=c084fc&line=8b5cf6&point=ffffff&area=true&hide_border=true"
-  width="100%"
-  alt="GitHub Activity Graph"
-/>
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-<img
-  src="./assets/footer.svg"
-  width="100%"
-  alt="Let's build something"
-/>
-
-</div>
