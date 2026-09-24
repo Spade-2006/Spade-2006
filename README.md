@@ -5,23 +5,19 @@
 <br><br>
 
 <a href="https://www.linkedin.com/in/satyansh-acharya/">
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-    width="30"
-    alt="LinkedIn"
-  />
+  <img src="https://cdn.simpleicons.org/linkedin/8b5cf6" width="30" alt="LinkedIn"/>
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="mailto:acharyasatyansh@gmail.com">
-<img src="https://cdn.simpleicons.org/gmail/c084fc" width="30" alt="Email"/>
+  <img src="https://cdn.simpleicons.org/gmail/c084fc" width="30" alt="Email"/>
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://github.com/Spade-2006">
-<img src="https://cdn.simpleicons.org/github/38bdf8" width="30" alt="GitHub"/>
+  <img src="https://cdn.simpleicons.org/github/38bdf8" width="30" alt="GitHub"/>
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://instagram.com/__satyanshh">
-<img src="https://cdn.simpleicons.org/instagram/a855f7" width="30" alt="Instagram"/>
+  <img src="https://cdn.simpleicons.org/instagram/a855f7" width="30" alt="Instagram"/>
 </a>
 
 </div>
@@ -29,9 +25,7 @@
 <br>
 
 <div align="center">
-
 <img src="./assets/about.svg" width="100%" alt="About Satyansh"/>
-
 </div>
 
 <br>
@@ -41,13 +35,7 @@
 ## 🧬 `Who am I?`
 
 <div align="center">
-
-<img
-  src="./assets/whoami.svg"
-  width="100%"
-  alt="Who Am I"
-/>
-
+<img src="./assets/whoami.svg" width="100%" alt="Who Am I"/>
 </div>
 
 <br>
@@ -57,13 +45,7 @@
 ## ⚡ `Tech Fields`
 
 <div align="center">
-
-<img
-  src="./assets/stack.svg"
-  width="100%"
-  alt="Tech Stack"
-/>
-
+<img src="./assets/stack.svg" width="100%" alt="Tech Stack"/>
 </div>
 
 <br>
@@ -73,13 +55,7 @@
 ## 🧩 `Computer Science`
 
 <div align="center">
-
-<img
-  src="./assets/cs.svg"
-  width="100%"
-  alt="Computer Science"
-/>
-
+<img src="./assets/cs.svg" width="100%" alt="Computer Science"/>
 </div>
 
 <br>
@@ -89,13 +65,7 @@
 ## 🚀 `Things I build`
 
 <div align="center">
-
-<img
-  src="./assets/projects.svg"
-  width="100%"
-  alt="Projects"
-/>
-
+<img src="./assets/projects.svg" width="100%" alt="Things I Build"/>
 </div>
 
 <br>
@@ -106,11 +76,11 @@
 
 <div align="center">
 
-<img
-  src="./assets/github-contribution-grid-snake.svg"
-  width="100%"
-  alt="GitHub contribution snake"
-/>
+<img src="./assets/contribution.svg" width="100%" alt="GitHub Contribution Matrix"/>
+
+<br><br>
+
+<img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake"/>
 
 </div>
 
@@ -121,31 +91,7 @@
 ## 📊 `Github Stats`
 
 <div align="center">
-
-<img
-  height="180"
-  src="https://github-readme-stats.vercel.app/api?username=Spade-2006&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=c084fc&icon_color=8b5cf6&text_color=a1a1aa"
-  alt="GitHub Stats"
-/>
-
-<img
-  height="180"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spade-2006&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=c084fc&text_color=a1a1aa"
-  alt="Top Languages"
-/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img
-  src="https://streak-stats.demolab.com?user=Spade-2006&theme=tokyonight&hide_border=true&background=00000000&ring=c084fc&fire=a855f7&currStreakLabel=c084fc"
-  width="70%"
-  alt="GitHub Streak"
-/>
-
+<img src="./assets/github-stats.svg" width="100%" alt="GitHub Statistics"/>
 </div>
 
 <br>
@@ -155,60 +101,63 @@
 ## 🏆 `Achievements`
 
 <div align="center">
-
-<table>
-<tr>
-
-<td align="center" width="25%">
-
-### `550+`
-
-LeetCode Problems
-
-</td>
-
-<td align="center" width="25%">
-
-### `1600`
-
-Peak Contest Rating
-
-</td>
-
-<td align="center" width="25%">
-
-### `9.16`
-
-Current CGPA
-
-</td>
-
-<td align="center" width="25%">
-
-### `150+`
-
-Curated DSA Problems
-
-</td>
-
-</tr>
-</table>
-
+<img src="./assets/achievements.svg" width="100%" alt="Achievements and Certifications"/>
 </div>
 
 <br>
 
-### `Competitive Programming`
+---
 
-```text
-DP              GRAPHS              TREES
-│                 │                   │
-├─ optimization  ├─ traversal        ├─ BST
-├─ states        ├─ shortest path    ├─ recursion
-└─ transitions   └─ connectivity     └─ trees
+## 📚 `currently.learning`
 
-STRINGS          SEARCH              COMPLEXITY
-│                 │                   │
-├─ patterns      ├─ binary search    ├─ Big-O
-├─ matching      └─ optimization     ├─ tradeoffs
-└─ manipulation                      └─ analysis
+<div align="center">
+<img src="./assets/learning.svg" width="100%" alt="Currently Learning"/>
+</div>
+
+<br>
+
+---
+
+## 🔬 `what.i.like.building`
+
+<div align="center">
+<img src="./assets/building.svg" width="100%" alt="What I Like Building"/>
+</div>
+
+<br>
+
+---
+
+## 🧪 `build.philosophy`
+
+<div align="center">
+<img src="./assets/philosophy.svg" width="100%" alt="Build Philosophy"/>
+</div>
+
+<br>
+
+---
+
+## 🎨 `outside.the.code`
+
+<div align="center">
+<img src="./assets/offline.svg" width="100%" alt="Outside the Code"/>
+</div>
+
+<br>
+
+---
+
+## 📈 `activity`
+
+<div align="center">
+<img src="./assets/activity.svg" width="100%" alt="GitHub Activity"/>
+</div>
+
+<br>
+
+---
+
+<div align="center">
+<img src="./assets/footer.svg" width="100%" alt="Let's Build Something"/>
+</div>
